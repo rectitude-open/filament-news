@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/rectitude-open/filament-news/compare/v1.0.0...v1.0.1) (2025-05-12)
+
+
+### Bug Fixes
+
+* update cviebrock/eloquent-sluggable version constraint to support multiple versions ([0d6bf4a](https://github.com/rectitude-open/filament-news/commit/0d6bf4a17faa573c450df89a5e639a8624efcfe7))
+
 ## 1.0.0 (2025-05-12)
 
 
