@@ -4,6 +4,7 @@ namespace RectitudeOpen\FilamentNews;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
+use RectitudeOpen\FilamentNews\Filament\Pages\NewsCategory;
 
 class FilamentNewsPlugin implements Plugin
 {
@@ -14,7 +15,14 @@ class FilamentNewsPlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-        //
+        $panel
+            ->pages([
+                config('filament-news.news_category_page', NewsCategory::class),
+            ])
+            ->discoverClusters(
+                __DIR__ . '/Filament/Clusters',
+                'RectitudeOpen\\FilamentNews\\Filament\\Clusters'
+            );
     }
 
     public function boot(Panel $panel): void
