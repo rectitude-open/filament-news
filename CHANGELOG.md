@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/rectitude-open/filament-news/compare/v1.1.0...v1.2.0) (2025-05-13)
+
+
+### Features
+
+* add config to support dynamic model ([ecc58b0](https://github.com/rectitude-open/filament-news/commit/ecc58b09990c4eabec3c62a64dc16cb541546ee8))
+
 ## [1.1.0](https://github.com/rectitude-open/filament-news/compare/v1.0.1...v1.1.0) (2025-05-13)
 
 
