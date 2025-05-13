@@ -1,5 +1,6 @@
 # This is my package filament-news
 
+![Do not use](https://img.shields.io/badge/Under%20development-Don't%20use-red)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rectitude-open/filament-news.svg?style=flat-square)](https://packagist.org/packages/rectitude-open/filament-news)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/rectitude-open/filament-news/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/rectitude-open/filament-news/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/rectitude-open/filament-news/fix-php-code-styling.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/rectitude-open/filament-news/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
