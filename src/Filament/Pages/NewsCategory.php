@@ -11,8 +11,6 @@ use SolutionForest\FilamentTree\Pages\TreePage as BasePage;
 
 class NewsCategory extends BasePage
 {
-    protected static string $model = TreePageModel::class;
-
     protected static ?string $cluster = NewsCluster::class;
 
     protected static ?int $navigationSort = 2;
@@ -20,6 +18,11 @@ class NewsCategory extends BasePage
     protected static ?string $navigationIcon = 'heroicon-o-tag';
 
     protected static int $maxDepth = 3;
+
+    public function getModel(): string
+    {
+        return static::$model ?? config('filament-news.news_category_model', TreePageModel::class);
+    }
 
     protected function getActions(): array
     {

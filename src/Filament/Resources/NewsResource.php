@@ -28,13 +28,16 @@ use TomatoPHP\FilamentMediaManager\Form\MediaManagerInput;
 
 class NewsResource extends Resource
 {
-    protected static ?string $model = News::class;
-
     protected static ?string $cluster = NewsCluster::class;
 
     protected static ?int $navigationSort = 1;
 
     protected static ?string $navigationIcon = 'heroicon-o-newspaper';
+
+    public static function getModel(): string
+    {
+        return static::$model ?? config('filament-news.news_model', News::class);
+    }
 
     public static function form(Form $form): Form
     {
