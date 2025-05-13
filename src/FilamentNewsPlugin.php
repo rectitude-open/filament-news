@@ -5,6 +5,7 @@ namespace RectitudeOpen\FilamentNews;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use RectitudeOpen\FilamentNews\Filament\Pages\NewsCategory;
+use RectitudeOpen\FilamentNews\Filament\Resources\NewsResource;
 
 class FilamentNewsPlugin implements Plugin
 {
@@ -16,6 +17,9 @@ class FilamentNewsPlugin implements Plugin
     public function register(Panel $panel): void
     {
         $panel
+            ->resources([
+                config('filament-news.news_filament_resource', NewsResource::class),
+            ])
             ->pages([
                 config('filament-news.news_category_page', NewsCategory::class),
             ])
