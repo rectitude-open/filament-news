@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/rectitude-open/filament-news/compare/v1.0.1...v1.1.0) (2025-05-13)
+
+
+### Features
+
+* add news resource and dependencies ([d1a8d46](https://github.com/rectitude-open/filament-news/commit/d1a8d46774f8467037fcb1525a3fe00871855b93))
+
 ## [1.0.1](https://github.com/rectitude-open/filament-news/compare/v1.0.0...v1.0.1) (2025-05-12)
 
 
