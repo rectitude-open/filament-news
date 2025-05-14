@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/rectitude-open/filament-news/compare/v1.2.0...v1.3.0) (2025-05-14)
+
+
+### Features
+
+* move NewsTagResource and add config ([241adfd](https://github.com/rectitude-open/filament-news/commit/241adfd0698a5c8985d6dd93b4dc1f7bf0fa2f7c))
+
 ## [1.2.0](https://github.com/rectitude-open/filament-news/compare/v1.1.0...v1.2.0) (2025-05-13)
 
 
