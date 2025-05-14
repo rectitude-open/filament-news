@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster\Resources;
+namespace RectitudeOpen\FilamentNews\Filament\Resources;
 
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -13,7 +13,7 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
-use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster\Resources\NewsTagResource\Pages;
+use RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource\Pages;
 use RectitudeOpen\FilamentNews\Models\Tag;
 
 class NewsTagResource extends Resource

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster\Resources\NewsTagResource\Pages;
+namespace RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource\Pages;
 
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
-use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster\Resources\NewsTagResource;
+use RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource;
 
 class EditNewsTag extends EditRecord
 {

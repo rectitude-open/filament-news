@@ -7,4 +7,5 @@ return [
 
     'news_category_page' => RectitudeOpen\FilamentNews\Filament\Pages\NewsCategory::class,
     'news_filament_resource' => RectitudeOpen\FilamentNews\Filament\Resources\NewsResource::class,
+    'news_tag_filament_resource' => RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource::class,
 ];
