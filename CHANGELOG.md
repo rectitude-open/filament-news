@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/rectitude-open/filament-news/compare/v1.3.0...v1.4.0) (2025-05-29)
+
+
+### Features
+
+* add create action to ListNews header ([4823ad7](https://github.com/rectitude-open/filament-news/commit/4823ad729fde55c17470e1357d54d6116abf3e84))
+* update news table schema ([2a3b7fb](https://github.com/rectitude-open/filament-news/commit/2a3b7fb1f32c572a8c1c91f450e284f5e6f8f4ad))
+* update README with detailed package description and add new banner image ([fb45a0f](https://github.com/rectitude-open/filament-news/commit/fb45a0f61e335d24d1fa216124115756f19097e3))
+
 ## [1.3.0](https://github.com/rectitude-open/filament-news/compare/v1.2.0...v1.3.0) (2025-05-14)
 
 
