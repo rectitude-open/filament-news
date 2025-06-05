@@ -9,7 +9,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/rectitude-open/filament-news/pulls)
 
 
-Filament News is a Filament plugin that provides a comprehensive news management interface for your application. It's designed to help you quickly set up a backend for managing news articles, complete with common features such as **categories, tags, featured images, summaries, weight, and revision history**. This package streamlines the process of integrating a robust news system into your Filament admin panel.
+Filament News is a Filament plugin that provides a comprehensive news management interface for your application. It's designed to help you quickly set up a backend for managing news articles, complete with common features such as **categories, tags, featured images, summaries, weight, SEO optimization, and version tracking**. This package streamlines the process of integrating a robust news system into your Filament admin panel.
 
 This package is also a standalone part of a CMS project: [FilaPress](https://github.com/rectitude-open/filapress).
 
