@@ -20,6 +20,7 @@ use Filament\Tables\Columns\SpatieTagsColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
+use RalphJSmit\Filament\SEO\SEO;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
 use RectitudeOpen\FilamentNews\Filament\Resources\NewsResource\Pages;
 use RectitudeOpen\FilamentNews\Models\News;
@@ -84,6 +85,12 @@ class NewsResource extends Resource
                                     ->schema([])
                                     ->nullable(),
                             ]),
+                        Section::make(__('SEO'))
+                            ->compact()
+                            ->schema([
+                                SEO::make(),
+                            ])
+                            ->collapsible(),
                         Section::make(__('Meta'))
                             ->compact()
                             ->schema([
