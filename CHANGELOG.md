@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/rectitude-open/filament-news/compare/v1.4.0...v1.5.0) (2025-06-05)
+
+
+### Features
+
+* add SEO support to NewsResource and News model ([73dc595](https://github.com/rectitude-open/filament-news/commit/73dc595bd01894b54db434f75b0e7f3fe8c806cd))
+* update README to include SEO optimization and version tracking in features list ([f04b697](https://github.com/rectitude-open/filament-news/commit/f04b6974a4220ee69e9c976f66895a12d44088e5))
+
 ## [1.4.0](https://github.com/rectitude-open/filament-news/compare/v1.3.0...v1.4.0) (2025-05-29)
 
 
