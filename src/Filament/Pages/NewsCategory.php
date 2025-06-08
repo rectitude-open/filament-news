@@ -21,7 +21,7 @@ class NewsCategory extends BasePage
 
     public function getModel(): string
     {
-        return static::$model ?? config('filament-news.news_category_model', TreePageModel::class);
+        return static::$model ?? config('filament-news.news_category.model', TreePageModel::class);
     }
 
     protected function getActions(): array

@@ -19,11 +19,11 @@ class FilamentNewsPlugin implements Plugin
     {
         $panel
             ->resources([
-                config('filament-news.news_filament_resource', NewsResource::class),
-                config('filament-news.news_tag_filament_resource', NewsTagResource::class),
+                config('filament-news.news.filament_resource', NewsResource::class),
+                config('filament-news.tag.filament_resource', NewsTagResource::class),
             ])
             ->pages([
-                config('filament-news.news_category_page', NewsCategory::class),
+                config('filament-news.news_category.page', NewsCategory::class),
             ])
             ->discoverClusters(
                 __DIR__ . '/Filament/Clusters',

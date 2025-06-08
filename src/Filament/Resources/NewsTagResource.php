@@ -26,7 +26,7 @@ class NewsTagResource extends Resource
 
     public static function getModel(): string
     {
-        return static::$model ?? config('filament-news.tag_model', Tag::class);
+        return static::$model ?? config('filament-news.tag.model', Tag::class);
     }
 
     public static function getEloquentQuery(): Builder
