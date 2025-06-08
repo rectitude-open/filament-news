@@ -20,6 +20,8 @@ use Filament\Tables\Columns\SpatieTagsColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
 use RalphJSmit\Filament\SEO\SEO;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
 use RectitudeOpen\FilamentNews\Filament\Resources\NewsResource\Pages;
@@ -174,6 +176,7 @@ class NewsResource extends Resource
                     ->label(__('Created At'))
                     ->sortable(),
             ])->filters([
+                Tables\Filters\TrashedFilter::make(),
                 SelectFilter::make('status')
                     ->label(__('Status'))
                     ->options([
@@ -188,9 +191,13 @@ class NewsResource extends Resource
                 //
             ])->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\ForceDeleteAction::make(),
+                Tables\Actions\RestoreAction::make(),
             ])->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\ForceDeleteBulkAction::make(),
+                    Tables\Actions\RestoreBulkAction::make(),
                 ]),
             ])->defaultSort('created_at', 'desc');
     }
@@ -210,5 +217,13 @@ class NewsResource extends Resource
             'edit' => Pages\EditNews::route('/{record}/edit'),
             'revisions' => Pages\NewsRevisions::route('/{record}/revisions'),
         ];
+    }
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->withoutGlobalScopes([
+                SoftDeletingScope::class,
+            ]);
     }
 }
