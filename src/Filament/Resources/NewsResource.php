@@ -61,7 +61,7 @@ class NewsResource extends Resource
 
     public static function getNavigationBadge(): ?string
     {
-        return config('filament-contact-logs.navigation_badge', false)
+        return config('filament-news.navigation_badge', false)
                 ? (string) static::getModel()::count()
                 : '';
     }
