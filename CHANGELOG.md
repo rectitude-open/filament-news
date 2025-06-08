@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.6.0](https://github.com/rectitude-open/filament-news/compare/v1.5.0...v1.6.0) (2025-06-08)
+
+
+### Features
+
+* enhance NewsResource with soft delete functionality and actions ([005c3bc](https://github.com/rectitude-open/filament-news/commit/005c3bc5efaf919d8fe7b1c47aa35b14b7b56787))
+* replace TinyEditor with RichEditor in NewsResource for enhanced content editing ([42ad4ba](https://github.com/rectitude-open/filament-news/commit/42ad4baf6cf1deb17bbf1842aceecef2259abe58))
+* update NewsResource to use configurable editor component and adjust class references ([a2f9a87](https://github.com/rectitude-open/filament-news/commit/a2f9a87c4cb718087d68906bf7a3580a30c676ee))
+* update README with installation notes and dependency requirements ([408d829](https://github.com/rectitude-open/filament-news/commit/408d829631c2443a054ec51d3aca531e23c36cd6))
+
 ## [1.5.0](https://github.com/rectitude-open/filament-news/compare/v1.4.0...v1.5.0) (2025-06-05)
 
 
