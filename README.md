@@ -1,7 +1,6 @@
 ![Filament News Banner](./art/Filament%20News.png)
 # Filament News
 
-![Do not use](https://img.shields.io/badge/Under%20development-Don't%20use-red)
 [![Tests](https://github.com/rectitude-open/filament-news/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rectitude-open/filament-news/actions/workflows/run-tests.yml)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%205-brightgreen)](https://phpstan.org/)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rectitude-open/filament-news.svg?style=flat-square)](https://packagist.org/packages/rectitude-open/filament-news)
@@ -54,13 +53,26 @@ This is the contents of the published config file:
 
 ```php
 return [
-    'news_model' => \RectitudeOpen\FilamentNews\Models\News::class,
-    'news_category_model' => \RectitudeOpen\FilamentNews\Models\NewsCategory::class,
-    'tag_model' => \RectitudeOpen\FilamentNews\Models\Tag::class,
-
-    'news_category_page' => \RectitudeOpen\FilamentNews\Filament\Pages\NewsCategory::class,
-    'news_filament_resource' => \RectitudeOpen\FilamentNews\Filament\Resources\NewsResource::class,
-    'news_tag_filament_resource' => \RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource::class,
+    'news' => [
+        'navigation_sort' => 0,
+        'navigation_icon' => 'heroicon-o-newspaper',
+        'datetime_format' => 'Y-m-d H:i:s',
+        'navigation_badge' => false,
+        'model' => \RectitudeOpen\FilamentNews\Models\News::class,
+        'filament_resource' => \RectitudeOpen\FilamentNews\Filament\Resources\NewsResource::class,
+    ],
+    'news_category' => [
+        'model' => \RectitudeOpen\FilamentNews\Models\NewsCategory::class,
+        'page' => \RectitudeOpen\FilamentNews\Filament\Pages\NewsCategory::class,
+        'navigation_sort' => 2,
+        'navigation_icon' => 'heroicon-o-tag',
+    ],
+    'tag' => [
+        'model' => \RectitudeOpen\FilamentNews\Models\Tag::class,
+        'filament_resource' => \RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource::class,
+        'navigation_sort' => 3,
+        'navigation_icon' => 'heroicon-o-rectangle-stack',
+    ],
 
     'editor_component_class' => \Filament\Forms\Components\RichEditor::class,
 ];
