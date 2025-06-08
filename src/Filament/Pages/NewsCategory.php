@@ -13,11 +13,17 @@ class NewsCategory extends BasePage
 {
     protected static ?string $cluster = NewsCluster::class;
 
-    protected static ?int $navigationSort = 2;
-
-    protected static ?string $navigationIcon = 'heroicon-o-tag';
-
     protected static int $maxDepth = 3;
+
+    public static function getNavigationSort(): ?int
+    {
+        return config('filament-news.news_category.navigation_sort', 2);
+    }
+
+    public static function getNavigationIcon(): ?string
+    {
+        return config('filament-news.news_category.navigation_icon', 'heroicon-o-tag');
+    }
 
     public function getModel(): string
     {

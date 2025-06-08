@@ -18,11 +18,17 @@ use RectitudeOpen\FilamentNews\Models\Tag;
 
 class NewsTagResource extends Resource
 {
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-
-    protected static ?int $navigationSort = 3;
-
     protected static ?string $cluster = NewsCluster::class;
+
+    public static function getNavigationIcon(): ?string
+    {
+        return config('filament-news.tag.navigation_icon', 'heroicon-o-rectangle-stack');
+    }
+
+    public static function getNavigationSort(): ?int
+    {
+        return config('filament-news.tag.navigation_sort', 3);
+    }
 
     public static function getModel(): string
     {
