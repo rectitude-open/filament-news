@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.7.0](https://github.com/rectitude-open/filament-news/compare/v1.6.0...v1.7.0) (2025-06-08)
+
+
+### Features
+
+* add configurable navigation settings for NewsCategory and NewsTagResource ([2d89423](https://github.com/rectitude-open/filament-news/commit/2d894232e918fcecfa4ab3b1fe7a64d358468063))
+* add configurable navigation settings to NewsResource ([aad6074](https://github.com/rectitude-open/filament-news/commit/aad6074f583305863445c1d19b9d675e39e3116e))
+* add export-ignore for /dev and /filament-news-docker in .gitattributes ([21d6dce](https://github.com/rectitude-open/filament-news/commit/21d6dce0920e4d4ed080157dc5dfc89babb3b088))
+* add more translations ([9467422](https://github.com/rectitude-open/filament-news/commit/94674223478845a4249048d7480edde536180371))
+* add navigation settings for NewsCategory and NewsTagResource ([5313ea4](https://github.com/rectitude-open/filament-news/commit/5313ea422042b30e82d9eb1844950ada6b4437ab))
+* update esbuild dependency to version 0.25.0 ([1b5503a](https://github.com/rectitude-open/filament-news/commit/1b5503a94168dc542735c4fbdcdb31015b5a179b))
+
+
+### Bug Fixes
+
+* add missing Filament Select Tree dependency in README ([36ca52a](https://github.com/rectitude-open/filament-news/commit/36ca52ad05f5f9f88ee471c9971b5a5ae716ff40))
+* correct navigation badge configuration reference in NewsResource ([a9b1213](https://github.com/rectitude-open/filament-news/commit/a9b12137cc62a5d4a07eaff614a421ada387abb1))
+
 ## [1.6.0](https://github.com/rectitude-open/filament-news/compare/v1.5.0...v1.6.0) (2025-06-08)
 
 
