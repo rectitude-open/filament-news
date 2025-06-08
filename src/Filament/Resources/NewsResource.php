@@ -21,6 +21,7 @@ use Filament\Tables\Columns\SpatieTagsColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
+use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use RalphJSmit\Filament\SEO\SEO;
@@ -33,13 +34,36 @@ class NewsResource extends Resource
 {
     protected static ?string $cluster = NewsCluster::class;
 
-    protected static ?int $navigationSort = 1;
-
-    protected static ?string $navigationIcon = 'heroicon-o-newspaper';
-
     public static function getModel(): string
     {
         return static::$model ?? config('filament-news.news_model', News::class);
+    }
+
+    public static function getNavigationIcon(): string | Htmlable | null
+    {
+        return static::$navigationIcon ?? config('filament-news.navigation_icon', 'heroicon-o-newspaper');
+    }
+
+    public static function getNavigationSort(): ?int
+    {
+        return config('filament-news.navigation_sort', 0);
+    }
+
+    public static function getNavigationLabel(): string
+    {
+        return __('filament-news::filament-news.nav.label');
+    }
+
+    public static function getNavigationGroup(): ?string
+    {
+        return __('filament-news::filament-news.nav.group');
+    }
+
+    public static function getNavigationBadge(): ?string
+    {
+        return config('filament-contact-logs.navigation_badge', false)
+                ? (string) static::getModel()::count()
+                : '';
     }
 
     public static function form(Form $form): Form
@@ -141,7 +165,9 @@ class NewsResource extends Resource
                                     ->default(now())
                                     ->suffixIcon('heroicon-o-calendar')
                                     ->columnSpanFull()
-                                    ->inlineLabel(),
+                                    ->inlineLabel()
+                                    ->format(config('filament-news.datetime_format', 'Y-m-d H:i:s'))
+                                    ->displayFormat(config('filament-news.datetime_format', 'Y-m-d H:i:s')),
                             ])
                             ->collapsible(),
                     ])->columnSpan(['xl' => 1]),
