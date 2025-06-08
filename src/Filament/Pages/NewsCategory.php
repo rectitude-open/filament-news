@@ -25,6 +25,16 @@ class NewsCategory extends BasePage
         return config('filament-news.news_category.navigation_icon', 'heroicon-o-tag');
     }
 
+    public static function getNavigationLabel(): string
+    {
+        return __('filament-news::filament-news.news_category.nav.label');
+    }
+
+    public static function getNavigationGroup(): ?string
+    {
+        return __('filament-news::filament-news.news_category.nav.group');
+    }
+
     public function getModel(): string
     {
         return static::$model ?? config('filament-news.news_category.model', TreePageModel::class);
@@ -41,7 +51,7 @@ class NewsCategory extends BasePage
     {
         return [
             TextInput::make('title')
-                ->label(__('Title'))
+                ->label(__('filament-news::filament-news.news_category.field.title'))
                 ->required()
                 ->maxLength(255)
                 ->columnSpanFull(),

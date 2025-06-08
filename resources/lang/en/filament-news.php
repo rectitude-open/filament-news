@@ -22,4 +22,19 @@ return [
         'field.status.suspended' => 'Suspended',
         'field.created_at' => 'Created At',
     ],
+    'news_category' => [
+        'nav.label' => 'News Categories',
+        'nav.group' => 'Content',
+
+        'field.title' => 'Title',
+    ],
+    'tag' => [
+        'nav.label' => 'Tags',
+        'nav.group' => 'Content',
+
+        'field.name' => 'Name',
+        'field.slug' => 'Slug',
+        'field.weight' => 'Weight',
+        'field.count' => 'Count',
+    ],
 ];

@@ -30,6 +30,16 @@ class NewsTagResource extends Resource
         return config('filament-news.tag.navigation_sort', 3);
     }
 
+    public static function getNavigationLabel(): string
+    {
+        return __('filament-news::filament-news.tag.nav.label');
+    }
+
+    public static function getNavigationGroup(): ?string
+    {
+        return __('filament-news::filament-news.tag.nav.group');
+    }
+
     public static function getModel(): string
     {
         return static::$model ?? config('filament-news.tag.model', Tag::class);
@@ -46,13 +56,13 @@ class NewsTagResource extends Resource
         return $form
             ->schema([
                 KeyValue::make('name')
-                    ->label(__('Name'))
+                    ->label(__('filament-news::filament-news.tag.field.name'))
                     ->required(),
                 KeyValue::make('slug')
-                    ->label(__('Slug'))
+                    ->label(__('filament-news::filament-news.tag.field.slug'))
                     ->required(),
                 TextInput::make('order_column')
-                    ->label(__('Weight'))
+                    ->label(__('filament-news::filament-news.tag.field.weight'))
                     ->numeric()
                     ->required(),
             ]);
@@ -63,16 +73,16 @@ class NewsTagResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('name')
-                    ->label(__('Name'))
+                    ->label(__('filament-news::filament-news.tag.field.name'))
                     ->searchable(),
                 TextColumn::make('slug')
-                    ->label(__('Slug'))
+                    ->label(__('filament-news::filament-news.tag.field.slug'))
                     ->searchable(),
                 TextColumn::make('order_column')
-                    ->label(__('Weight'))
+                    ->label(__('filament-news::filament-news.tag.field.weight'))
                     ->searchable(),
                 TextColumn::make('news_count')
-                    ->label(__('Count'))
+                    ->label(__('filament-news::filament-news.tag.field.count'))
                     ->sortable(),
             ])
             ->filters([
