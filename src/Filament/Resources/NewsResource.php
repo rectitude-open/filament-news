@@ -44,6 +44,13 @@ class NewsResource extends Resource
 
     public static function form(Form $form): Form
     {
+        $editorClass = config('filament-news.editor_component_class', RichEditor::class);
+        $editorComponent = $editorClass::make('content')
+            ->fileAttachmentsDisk('public')
+            ->fileAttachmentsDirectory('uploads')
+            ->fileAttachmentsVisibility('public')
+            ->columnSpan('full');
+
         return $form
             ->schema([
                 Grid::make(['sm' => 3])->schema([
@@ -53,11 +60,7 @@ class NewsResource extends Resource
                             ->required()
                             ->maxLength(255)
                             ->columnSpanFull(),
-                        RichEditor::make('content')
-                            ->fileAttachmentsDisk('public')
-                            ->fileAttachmentsDirectory('uploads')
-                            ->fileAttachmentsVisibility('public')
-                            ->columnSpan('full'),
+                        $editorComponent,
                     ])->columnSpan(['xl' => 2]),
                     Grid::make()->schema([
                         Section::make(__('Taxonomy'))
