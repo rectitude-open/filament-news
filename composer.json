@@ -2,9 +2,9 @@
     "name": "rectitude-open/filament-news",
     "description": "Filament news plugin with categories, tags, and revisions.",
     "keywords": [
-        "rectitude-open",
+        "news",
         "laravel",
-        "filament-news"
+        "filament-plugin"
     ],
     "homepage": "https://github.com/rectitude-open/filament-news",
     "support": {
@@ -28,7 +28,6 @@
         "mansoor/filament-versionable": "^0.0.13",
         "ralphjsmit/laravel-filament-seo": "^1.5",
         "ralphjsmit/laravel-seo": "^1.7",
-        "rectitude-open/filament-tinyeditor-6": "^6.3",
         "solution-forest/filament-tree": "^2.1",
         "spatie/laravel-package-tools": "^1.15.0",
         "tomatophp/filament-media-manager": "^1.1"

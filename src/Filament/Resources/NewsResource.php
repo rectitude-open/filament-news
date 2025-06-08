@@ -7,6 +7,7 @@ namespace RectitudeOpen\FilamentNews\Filament\Resources;
 use CodeWithDennis\FilamentSelectTree\SelectTree;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Grid;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Components\SpatieTagsInput;
 use Filament\Forms\Components\Textarea;
@@ -26,7 +27,6 @@ use RalphJSmit\Filament\SEO\SEO;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
 use RectitudeOpen\FilamentNews\Filament\Resources\NewsResource\Pages;
 use RectitudeOpen\FilamentNews\Models\News;
-use RectitudeOpen\FilamentTinyEditor6\TinyEditor;
 use TomatoPHP\FilamentMediaManager\Form\MediaManagerInput;
 
 class NewsResource extends Resource
@@ -53,10 +53,10 @@ class NewsResource extends Resource
                             ->required()
                             ->maxLength(255)
                             ->columnSpanFull(),
-                        TinyEditor::make('content')
+                        RichEditor::make('content')
                             ->fileAttachmentsDisk('public')
-                            ->fileAttachmentsVisibility('public')
                             ->fileAttachmentsDirectory('uploads')
+                            ->fileAttachmentsVisibility('public')
                             ->columnSpan('full'),
                     ])->columnSpan(['xl' => 2]),
                     Grid::make()->schema([
