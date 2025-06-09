@@ -145,7 +145,7 @@ class FilamentNewsServiceProvider extends PackageServiceProvider
     protected function getMigrations(): array
     {
         return [
-            'create_filament-news_table',
+            'create_news_table',
         ];
     }
 }
