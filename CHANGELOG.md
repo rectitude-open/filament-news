@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.2](https://github.com/rectitude-open/filament-news/compare/v1.7.1...v1.7.2) (2025-06-09)
+
+
+### Bug Fixes
+
+* add relationship for categories in NewsResource form ([44da7b6](https://github.com/rectitude-open/filament-news/commit/44da7b6324db120991527a6e42a96de8b842360f))
+* correct link for Filament Select Tree in README ([5d1272f](https://github.com/rectitude-open/filament-news/commit/5d1272f5f0b1d0aea0e954eaf7e1c3c6826cc7de))
+
 ## [1.7.1](https://github.com/rectitude-open/filament-news/compare/v1.7.0...v1.7.1) (2025-06-09)
 
 
