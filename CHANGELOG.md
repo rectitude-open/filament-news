@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/rectitude-open/filament-news/compare/v1.7.2...v1.8.0) (2025-06-09)
+
+
+### Features
+
+* add cluster configuration for navigation label in multiple languages ([2036fab](https://github.com/rectitude-open/filament-news/commit/2036fab30a94eb257a91c98a0d2593819a98e96c))
+
+
+### Bug Fixes
+
+* update status field labels in NewsResource to use correct keys ([361ae05](https://github.com/rectitude-open/filament-news/commit/361ae0581866e1187922639c8333565c9dd916f5))
+
 ## [1.7.2](https://github.com/rectitude-open/filament-news/compare/v1.7.1...v1.7.2) (2025-06-09)
 
 
