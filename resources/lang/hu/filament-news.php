@@ -48,4 +48,10 @@ return [
             'count' => 'Darab',
         ],
     ],
+    'cluster' => [
+        'nav' => [
+            'label' => 'Hírek',
+            'group' => 'Tartalom',
+        ],
+    ],
 ];

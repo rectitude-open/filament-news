@@ -48,4 +48,10 @@ return [
             'count' => 'Numri',
         ],
     ],
+    'cluster' => [
+        'nav' => [
+            'label' => 'Lajme',
+            'group' => 'Përmbajtje',
+        ],
+    ],
 ];

@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Știri',
+            'group' => 'Conținut',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Știri',

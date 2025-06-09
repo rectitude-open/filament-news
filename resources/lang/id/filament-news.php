@@ -48,4 +48,10 @@ return [
             'count' => 'Jumlah',
         ],
     ],
+    'cluster' => [
+        'nav' => [
+            'label' => 'Berita',
+            'group' => 'Konten',
+        ],
+    ],
 ];

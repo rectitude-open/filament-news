@@ -1,6 +1,10 @@
 <?php
 
 return [
+    'cluster' => [
+        'navigation_sort' => 0,
+        'navigation_icon' => 'heroicon-o-newspaper',
+    ],
     'news' => [
         'navigation_sort' => 0,
         'navigation_icon' => 'heroicon-o-newspaper',

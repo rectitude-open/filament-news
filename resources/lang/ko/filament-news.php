@@ -48,4 +48,10 @@ return [
             'count' => '개수',
         ],
     ],
+    'cluster' => [
+        'nav' => [
+            'label' => '뉴스',
+            'group' => '콘텐츠',
+        ],
+    ],
 ];

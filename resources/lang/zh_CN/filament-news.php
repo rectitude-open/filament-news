@@ -48,4 +48,10 @@ return [
             'count' => '数量',
         ],
     ],
+    'cluster' => [
+        'nav' => [
+            'label' => '新闻',
+            'group' => '内容',
+        ],
+    ],
 ];

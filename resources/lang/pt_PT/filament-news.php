@@ -48,4 +48,10 @@ return [
             'count' => 'Quantidade',
         ],
     ],
+    'cluster' => [
+        'nav' => [
+            'label' => 'Notícias',
+            'group' => 'Conteúdo',
+        ],
+    ],
 ];

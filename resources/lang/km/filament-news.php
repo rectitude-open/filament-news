@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'ព័ត៌មាន',
+            'group' => 'មាតិកា',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'ពត៌មាន',

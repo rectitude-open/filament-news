@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => '新聞',
+            'group' => '內容',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => '新聞',

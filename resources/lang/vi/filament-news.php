@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Tin tức',
+            'group' => 'Nội dung',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Tin tức',
