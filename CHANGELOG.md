@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1](https://github.com/rectitude-open/filament-news/compare/v1.7.0...v1.7.1) (2025-06-09)
+
+
+### Bug Fixes
+
+* language files to use nested array structure ([20d77dc](https://github.com/rectitude-open/filament-news/commit/20d77dce4fed6c31cf2d6dd1588a95c21b1f9347))
+* rename migration file for clarity from 'create_filament-news_table' to 'create_news_table' ([841f103](https://github.com/rectitude-open/filament-news/commit/841f103d010e442a24c78d6bb2644117959b15f2))
+
 ## [1.7.0](https://github.com/rectitude-open/filament-news/compare/v1.6.0...v1.7.0) (2025-06-08)
 
 
