@@ -2,39 +2,50 @@
 
 return [
     'news' => [
-        'nav.label' => 'News',
-        'nav.group' => 'Content',
-
-        'field.content' => 'Content',
-        'field.title' => 'Title',
-        'field.taxonomy' => 'Taxonomy',
-        'field.categories' => 'Categories',
-        'info.select_categories' => 'Select Categories',
-        'field.tags' => 'Tags',
-        'field.featured_image' => 'Featured Image',
-        'field.seo' => 'SEO',
-        'field.meta' => 'Meta',
-        'field.slug' => 'Slug',
-        'field.summary' => 'Summary',
-        'field.weight' => 'Weight',
-        'field.status' => 'Status',
-        'field.status.active' => 'Active',
-        'field.status.suspended' => 'Suspended',
-        'field.created_at' => 'Created At',
+        'nav' => [
+            'label' => 'News',
+            'group' => 'Content',
+        ],
+        'field' => [
+            'content' => 'Content',
+            'title' => 'Title',
+            'taxonomy' => 'Taxonomy',
+            'categories' => 'Categories',
+            'tags' => 'Tags',
+            'featured_image' => 'Featured Image',
+            'seo' => 'SEO',
+            'meta' => 'Meta',
+            'slug' => 'Slug',
+            'summary' => 'Summary',
+            'weight' => 'Weight',
+            'status' => 'Status',
+            'created_at' => 'Created At',
+            'status_active' => 'Active',
+            'status_suspended' => 'Suspended',
+        ],
+        'info' => [
+            'select_categories' => 'Select Categories',
+        ],
     ],
     'news_category' => [
-        'nav.label' => 'News Categories',
-        'nav.group' => 'Content',
-
-        'field.title' => 'Title',
+        'nav' => [
+            'label' => 'News Categories',
+            'group' => 'Content',
+        ],
+        'field' => [
+            'title' => 'Title',
+        ],
     ],
     'tag' => [
-        'nav.label' => 'Tags',
-        'nav.group' => 'Content',
-
-        'field.name' => 'Name',
-        'field.slug' => 'Slug',
-        'field.weight' => 'Weight',
-        'field.count' => 'Count',
+        'nav' => [
+            'label' => 'Tags',
+            'group' => 'Content',
+        ],
+        'field' => [
+            'name' => 'Name',
+            'slug' => 'Slug',
+            'weight' => 'Weight',
+            'count' => 'Count',
+        ],
     ],
 ];
