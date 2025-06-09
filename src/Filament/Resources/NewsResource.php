@@ -95,6 +95,7 @@ class NewsResource extends Resource
                                     ->label(__('filament-news::filament-news.news.field.categories'))
                                     ->placeholder(__('filament-news::filament-news.news.info.select_categories'))
                                     ->parentNullValue(-1)
+                                    ->relationship('categories', 'title', 'parent_id')
                                     ->searchable()
                                     ->defaultOpenLevel(3)
                                     ->columnSpanFull()
