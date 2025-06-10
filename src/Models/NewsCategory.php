@@ -7,6 +7,7 @@ namespace RectitudeOpen\FilamentNews\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use RectitudeOpen\FilamentNews\Database\Factories\NewsCategoryFactory;
 use SolutionForest\FilamentTree\Concern\ModelTree;
 
 class NewsCategory extends Model
@@ -27,5 +28,10 @@ class NewsCategory extends Model
         static::forceDeleted(function ($newsCategory) {
             $newsCategory->news()->detach();
         });
+    }
+
+    protected static function newFactory()
+    {
+        return NewsCategoryFactory::new();
     }
 }

@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Overtrue\LaravelVersionable\Versionable;
 use Overtrue\LaravelVersionable\VersionStrategy;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
+use RectitudeOpen\FilamentNews\Database\Factories\NewsFactory;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -57,5 +58,10 @@ class News extends Model implements HasMedia
     {
         $this->addMediaCollection('featured_image')
             ->singleFile();
+    }
+
+    protected static function newFactory()
+    {
+        return NewsFactory::new();
     }
 }

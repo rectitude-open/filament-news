@@ -19,8 +19,8 @@ class NewsCategoryFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => $this->faker->word,
-            'parent_id' => $this->faker->numberBetween(-1, 10),
+            'title' => $this->faker->name(),
+            'parent_id' => -1,
             'weight' => $this->faker->numberBetween(0, 100),
         ];
     }
