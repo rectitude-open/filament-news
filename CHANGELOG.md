@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/rectitude-open/filament-news/compare/v1.8.0...v1.8.1) (2025-06-10)
+
+
+### Bug Fixes
+
+* remove group labels from navigation in language files ([babf86f](https://github.com/rectitude-open/filament-news/commit/babf86fc02763cbf82793f9a46f9b55935fccae2))
+
 ## [1.8.0](https://github.com/rectitude-open/filament-news/compare/v1.7.2...v1.8.0) (2025-06-09)
 
 
