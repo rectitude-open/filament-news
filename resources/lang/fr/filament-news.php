@@ -4,7 +4,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Actualités',
-            'group' => 'Contenu',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Contenu',
@@ -30,7 +30,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Catégories d’actualités',
-            'group' => 'Contenu',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Titre',
@@ -39,7 +39,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Étiquettes',
-            'group' => 'Contenu',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Nom',

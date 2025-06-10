@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Nieuws',
-            'group' => 'Inhoud',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Inhoud',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Nieuwscategorieën',
-            'group' => 'Inhoud',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Titel',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Tags',
-            'group' => 'Inhoud',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Naam',

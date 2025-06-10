@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'News',
-            'group' => 'Content',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Content',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'News Categories',
-            'group' => 'Content',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Title',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Tags',
-            'group' => 'Content',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Name',

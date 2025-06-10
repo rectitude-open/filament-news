@@ -4,7 +4,7 @@ return [
     'news' => [
         'nav' => [
             'label' => '新闻',
-            'group' => '内容',
+            'group' => '',
         ],
         'field' => [
             'content' => '内容',
@@ -30,7 +30,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => '新闻类别',
-            'group' => '内容',
+            'group' => '',
         ],
         'field' => [
             'title' => '标题',
@@ -39,7 +39,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => '标签',
-            'group' => '内容',
+            'group' => '',
         ],
         'field' => [
             'name' => '名称',

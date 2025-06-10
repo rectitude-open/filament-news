@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'الأخبار',
-            'group' => 'المحتوى',
+            'group' => '',
         ],
         'field' => [
             'content' => 'المحتوى',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'فئات الأخبار',
-            'group' => 'المحتوى',
+            'group' => '',
         ],
         'field' => [
             'title' => 'العنوان',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'الوسوم',
-            'group' => 'المحتوى',
+            'group' => '',
         ],
         'field' => [
             'name' => 'الاسم',

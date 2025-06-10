@@ -4,7 +4,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Lajme',
-            'group' => 'Përmbajtje',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Përmbajtje',
@@ -30,7 +30,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Kategoritë e lajmeve',
-            'group' => 'Përmbajtje',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Titulli',
@@ -39,7 +39,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Etiketat',
-            'group' => 'Përmbajtje',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Emri',

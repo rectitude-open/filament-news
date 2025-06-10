@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => '新聞',
-            'group' => '內容',
+            'group' => '',
         ],
         'field' => [
             'content' => '內容',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => '新聞類別',
-            'group' => '內容',
+            'group' => '',
         ],
         'field' => [
             'title' => '標題',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => '標籤',
-            'group' => '內容',
+            'group' => '',
         ],
         'field' => [
             'name' => '名稱',

@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Tin tức',
-            'group' => 'Nội dung',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Nội dung',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Danh mục tin tức',
-            'group' => 'Nội dung',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Tiêu đề',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Thẻ',
-            'group' => 'Nội dung',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Tên',

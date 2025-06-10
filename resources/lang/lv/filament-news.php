@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Ziņas',
-            'group' => 'Saturs',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Saturs',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Ziņu kategorijas',
-            'group' => 'Saturs',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Virsraksts',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Birkas',
-            'group' => 'Saturs',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Nosaukums',

@@ -4,7 +4,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Hírek',
-            'group' => 'Tartalom',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Tartalom',
@@ -30,7 +30,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Hírkategóriák',
-            'group' => 'Tartalom',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Cím',
@@ -39,7 +39,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Címkék',
-            'group' => 'Tartalom',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Név',

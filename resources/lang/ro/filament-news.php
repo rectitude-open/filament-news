@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Știri',
-            'group' => 'Conținut',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Conținut',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Categorii de știri',
-            'group' => 'Conținut',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Titlu',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Etichete',
-            'group' => 'Conținut',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Nume',

@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'ពត៌មាន',
-            'group' => 'មាតិកា',
+            'group' => '',
         ],
         'field' => [
             'content' => 'មាតិកា',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'ប្រភេទពត៌មាន',
-            'group' => 'មាតិកា',
+            'group' => '',
         ],
         'field' => [
             'title' => 'ចំណងជើង',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'ស្លាក',
-            'group' => 'មាតិកា',
+            'group' => '',
         ],
         'field' => [
             'name' => 'ឈ្មោះ',

@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'ახალი ამბები',
-            'group' => 'შინაარსი',
+            'group' => '',
         ],
         'field' => [
             'content' => 'შინაარსი',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'ახალი ამბების კატეგორიები',
-            'group' => 'შინაარსი',
+            'group' => '',
         ],
         'field' => [
             'title' => 'სათაური',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'ჭდეები',
-            'group' => 'შინაარსი',
+            'group' => '',
         ],
         'field' => [
             'name' => 'სახელი',

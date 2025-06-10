@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Zprávy',
-            'group' => 'Obsah',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Obsah',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Kategorie zpráv',
-            'group' => 'Obsah',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Název',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Štítky',
-            'group' => 'Obsah',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Název',

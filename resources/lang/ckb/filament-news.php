@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'نووسینەکان',
-            'group' => 'ناوەڕۆک',
+            'group' => '',
         ],
         'field' => [
             'content' => 'ناوەڕۆک',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'هاوپۆلە نووسینەکان',
-            'group' => 'ناوەڕۆک',
+            'group' => '',
         ],
         'field' => [
             'title' => 'ناونیشان',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'تاگەکان',
-            'group' => 'ناوەڕۆک',
+            'group' => '',
         ],
         'field' => [
             'name' => 'ناو',

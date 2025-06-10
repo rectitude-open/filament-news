@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Nûçeyên',
-            'group' => 'Naverok',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Naverok',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Kategoriyên nûçeyan',
-            'group' => 'Naverok',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Sernav',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Etîket',
-            'group' => 'Naverok',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Nav',

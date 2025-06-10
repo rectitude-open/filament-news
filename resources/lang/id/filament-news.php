@@ -4,7 +4,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Berita',
-            'group' => 'Konten',
+            'group' => '',
         ],
         'field' => [
             'content' => 'Konten',
@@ -30,7 +30,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Kategori Berita',
-            'group' => 'Konten',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Judul',
@@ -39,7 +39,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Tag',
-            'group' => 'Konten',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Nama',

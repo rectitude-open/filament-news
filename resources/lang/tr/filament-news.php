@@ -10,7 +10,7 @@ return [
     'news' => [
         'nav' => [
             'label' => 'Haberler',
-            'group' => 'İçerik',
+            'group' => '',
         ],
         'field' => [
             'content' => 'İçerik',
@@ -36,7 +36,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => 'Haber Kategorileri',
-            'group' => 'İçerik',
+            'group' => '',
         ],
         'field' => [
             'title' => 'Başlık',
@@ -45,7 +45,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => 'Etiketler',
-            'group' => 'İçerik',
+            'group' => '',
         ],
         'field' => [
             'name' => 'Adı',

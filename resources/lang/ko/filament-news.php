@@ -4,7 +4,7 @@ return [
     'news' => [
         'nav' => [
             'label' => '뉴스',
-            'group' => '콘텐츠',
+            'group' => '',
         ],
         'field' => [
             'content' => '내용',
@@ -30,7 +30,7 @@ return [
     'news_category' => [
         'nav' => [
             'label' => '뉴스 카테고리',
-            'group' => '콘텐츠',
+            'group' => '',
         ],
         'field' => [
             'title' => '제목',
@@ -39,7 +39,7 @@ return [
     'tag' => [
         'nav' => [
             'label' => '태그',
-            'group' => '콘텐츠',
+            'group' => '',
         ],
         'field' => [
             'name' => '이름',
