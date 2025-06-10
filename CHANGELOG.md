@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/rectitude-open/filament-news/compare/v1.10.0...v1.11.0) (2025-06-10)
+
+
+### Features
+
+* implement factory methods for News and NewsCategory models ([5658e7e](https://github.com/rectitude-open/filament-news/commit/5658e7e0772748183f2bc4daffc563ff3691482c))
+
 ## [1.10.0](https://github.com/rectitude-open/filament-news/compare/v1.9.0...v1.10.0) (2025-06-10)
 
 
