@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/rectitude-open/filament-news/compare/v1.8.1...v1.9.0) (2025-06-10)
+
+
+### Features
+
+* add migration for news categories table ([89d35e1](https://github.com/rectitude-open/filament-news/commit/89d35e145a0f7c1790fee8ea58a2e89ef2945e23))
+
 ## [1.8.1](https://github.com/rectitude-open/filament-news/compare/v1.8.0...v1.8.1) (2025-06-10)
 
 
