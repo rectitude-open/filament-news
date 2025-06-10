@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.10.0](https://github.com/rectitude-open/filament-news/compare/v1.9.0...v1.10.0) (2025-06-10)
+
+
+### Features
+
+* add revisions action to EditNews page ([03d2ffb](https://github.com/rectitude-open/filament-news/commit/03d2ffb779840106bce7e80d6dad66c02eb644b4))
+
+
+### Bug Fixes
+
+* update navigation icons for news category and tag resources ([062c039](https://github.com/rectitude-open/filament-news/commit/062c039fb0be8c0d19b4ab13df8bf84106a31db1))
+
 ## [1.9.0](https://github.com/rectitude-open/filament-news/compare/v1.8.1...v1.9.0) (2025-06-10)
 
 
