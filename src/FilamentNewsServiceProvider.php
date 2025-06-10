@@ -146,6 +146,7 @@ class FilamentNewsServiceProvider extends PackageServiceProvider
     {
         return [
             'create_news_table',
+            'create_news_categories_table',
         ];
     }
 }
