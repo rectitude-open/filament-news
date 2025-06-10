@@ -22,7 +22,7 @@ class NewsCategory extends BasePage
 
     public static function getNavigationIcon(): ?string
     {
-        return config('filament-news.news_category.navigation_icon', 'heroicon-o-tag');
+        return config('filament-news.news_category.navigation_icon', 'heroicon-o-rectangle-stack');
     }
 
     public static function getNavigationLabel(): string

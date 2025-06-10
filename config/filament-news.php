@@ -17,13 +17,13 @@ return [
         'model' => \RectitudeOpen\FilamentNews\Models\NewsCategory::class,
         'page' => \RectitudeOpen\FilamentNews\Filament\Pages\NewsCategory::class,
         'navigation_sort' => 2,
-        'navigation_icon' => 'heroicon-o-tag',
+        'navigation_icon' => 'heroicon-o-rectangle-stack',
     ],
     'tag' => [
         'model' => \RectitudeOpen\FilamentNews\Models\Tag::class,
         'filament_resource' => \RectitudeOpen\FilamentNews\Filament\Resources\NewsTagResource::class,
         'navigation_sort' => 3,
-        'navigation_icon' => 'heroicon-o-rectangle-stack',
+        'navigation_icon' => 'heroicon-o-tag',
     ],
 
     'editor_component_class' => \Filament\Forms\Components\RichEditor::class,

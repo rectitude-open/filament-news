@@ -22,7 +22,7 @@ class NewsTagResource extends Resource
 
     public static function getNavigationIcon(): ?string
     {
-        return config('filament-news.tag.navigation_icon', 'heroicon-o-rectangle-stack');
+        return config('filament-news.tag.navigation_icon', 'heroicon-o-tag');
     }
 
     public static function getNavigationSort(): ?int
