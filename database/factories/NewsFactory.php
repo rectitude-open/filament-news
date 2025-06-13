@@ -23,7 +23,6 @@ class NewsFactory extends Factory
             'slug' => $this->faker->slug,
             'summary' => $this->faker->paragraph,
             'content' => $this->faker->text,
-            'featured_image' => $this->faker->imageUrl(),
             'weight' => $this->faker->numberBetween(1, 100),
             'status' => $this->faker->boolean ? 1 : 0,
             'created_at' => now(),
