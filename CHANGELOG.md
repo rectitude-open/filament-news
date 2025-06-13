@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/rectitude-open/filament-news/compare/v1.11.0...v1.11.1) (2025-06-13)
+
+
+### Bug Fixes
+
+* define model property in News and NewsCategory factories ([66b751a](https://github.com/rectitude-open/filament-news/commit/66b751ad33eeaedfec0a5e024430619f301e2ff0))
+
 ## [1.11.0](https://github.com/rectitude-open/filament-news/compare/v1.10.0...v1.11.0) (2025-06-10)
 
 
