@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace RectitudeOpen\FilamentNews\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use RectitudeOpen\FilamentNews\Models\NewsCategory;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\RectitudeOpen\FilamentNews\Models\NewsCategory>
- */
 class NewsCategoryFactory extends Factory
 {
+    protected $model = NewsCategory::class;
+
     /**
      * Define the model's default state.
      *
