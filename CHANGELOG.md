@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.2](https://github.com/rectitude-open/filament-news/compare/v1.11.1...v1.11.2) (2025-06-13)
+
+
+### Bug Fixes
+
+* remove featured_image from NewsFactory definition ([6ef536a](https://github.com/rectitude-open/filament-news/commit/6ef536aa03d08a0bf8a052edfd51ecb2f65451a5))
+
 ## [1.11.1](https://github.com/rectitude-open/filament-news/compare/v1.11.0...v1.11.1) (2025-06-13)
 
 
