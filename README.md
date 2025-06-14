@@ -12,7 +12,7 @@ Filament News is a Filament plugin that provides a comprehensive news management
 
 > **Note:** This plugin relies on several excellent Laravel/Filament plugins. Before installing Filament News, you must ensure that all the following dependencies are installed and properly configured in your project.
 [Filament Tree](https://github.com/solutionforest/filament-tree), [Filament Select Tree](https://github.com/CodeWithDennis/filament-select-tree), [Eloquent Sluggable](https://github.com/cviebrock/eloquent-sluggable), [Filament Spatie Tags Plugin](https://github.com/filamentphp/spatie-laravel-tags-plugin), [Filament Versionable](https://github.com/mansoorkhan96/filament-versionable), [Filament SEO](https://github.com/ralphjsmit/laravel-filament-seo), [Filament Curator](https://github.com/awcodes/filament-curator)
-> **Note:** For most of the packages listed above, you will need to publish their configurations files and migration files, and then run the migrations. 
+
 > **Important:** The category feature in this plugin depends on the Filament Tree plugin. You must configure the `order` field of Filament Tree to use `weight` for proper functionality.
 
 This package is also a standalone part of a CMS project: [FilaPress](https://github.com/rectitude-open/filapress).

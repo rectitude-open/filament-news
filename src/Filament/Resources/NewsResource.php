@@ -109,7 +109,9 @@ class NewsResource extends Resource
                             ->schema([
                                 CuratorPicker::make('featured_image_id')
                                     ->relationship('featured_image', 'id')
-                                    ->hiddenLabel(),
+                                    ->hiddenLabel()
+                                    ->maxItems(1)
+                                    ->directory('news'),
                             ]),
                         Section::make(__('filament-news::filament-news.news.field.seo'))
                             ->compact()
