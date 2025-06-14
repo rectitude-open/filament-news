@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.2](https://github.com/rectitude-open/filament-news/compare/v1.12.1...v1.12.2) (2025-06-14)
+
+
+### Bug Fixes
+
+* update featured_image_id field in NewsResource to allow single item selection and specify directory ([bd73073](https://github.com/rectitude-open/filament-news/commit/bd73073e22e94dc5348cc24c9ab712279eed6155))
+
 ## [1.12.1](https://github.com/rectitude-open/filament-news/compare/v1.12.0...v1.12.1) (2025-06-14)
 
 
