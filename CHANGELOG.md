@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/rectitude-open/filament-news/compare/v1.11.2...v1.12.0) (2025-06-14)
+
+
+### Features
+
+* use Filament Curator instead of media manager ([953c4fe](https://github.com/rectitude-open/filament-news/commit/953c4fe426a06bd261dead6ccdcb84114f0dc6c4))
+
 ## [1.11.2](https://github.com/rectitude-open/filament-news/compare/v1.11.1...v1.11.2) (2025-06-13)
 
 
