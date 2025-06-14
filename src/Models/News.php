@@ -25,9 +25,9 @@ class News extends Model
     use SoftDeletes;
     use Versionable;
 
-    protected $fillable = ['title', 'slug', 'summary', 'content', 'weight', 'status', 'created_at'];
+    protected $fillable = ['title', 'slug', 'summary', 'content', 'weight', 'featured_image_id', 'status', 'created_at'];
 
-    protected $versionable = ['title', 'slug', 'summary', 'content', 'weight', 'status'];
+    protected $versionable = ['title', 'slug', 'summary', 'content', 'weight', 'featured_image_id', 'status'];
 
     protected $versionStrategy = VersionStrategy::SNAPSHOT;
 
