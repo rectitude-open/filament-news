@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.3](https://github.com/rectitude-open/filament-news/compare/v1.12.2...v1.12.3) (2025-06-14)
+
+
+### Bug Fixes
+
+* rename featuredImage method to featured_image for consistency ([cd42119](https://github.com/rectitude-open/filament-news/commit/cd4211986caffc6d3606fb4bf83beb82f22f9bf2))
+
 ## [1.12.2](https://github.com/rectitude-open/filament-news/compare/v1.12.1...v1.12.2) (2025-06-14)
 
 
