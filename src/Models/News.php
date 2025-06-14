@@ -4,25 +4,23 @@ declare(strict_types=1);
 
 namespace RectitudeOpen\FilamentNews\Models;
 
+use Awcodes\Curator\Models\Media;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Overtrue\LaravelVersionable\Versionable;
 use Overtrue\LaravelVersionable\VersionStrategy;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
 use RectitudeOpen\FilamentNews\Database\Factories\NewsFactory;
-use Spatie\MediaLibrary\HasMedia;
-use Spatie\MediaLibrary\InteractsWithMedia;
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Spatie\Tags\HasTags;
 
-class News extends Model implements HasMedia
+class News extends Model
 {
     use HasFactory;
     use HasSEO;
     use HasTags;
-    use InteractsWithMedia;
     use Sluggable;
     use SoftDeletes;
     use Versionable;
@@ -54,10 +52,9 @@ class News extends Model implements HasMedia
         ];
     }
 
-    public function registerMediaConversions(?Media $media = null): void
+    public function featuredImage(): BelongsTo
     {
-        $this->addMediaCollection('featured_image')
-            ->singleFile();
+        return $this->belongsTo(Media::class, 'featured_image_id', 'id');
     }
 
     protected static function newFactory()

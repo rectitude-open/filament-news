@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace RectitudeOpen\FilamentNews\Filament\Resources;
 
+use Awcodes\Curator\Components\Forms\CuratorPicker;
 use CodeWithDennis\FilamentSelectTree\SelectTree;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Grid;
@@ -28,7 +29,6 @@ use RalphJSmit\Filament\SEO\SEO;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
 use RectitudeOpen\FilamentNews\Filament\Resources\NewsResource\Pages;
 use RectitudeOpen\FilamentNews\Models\News;
-use TomatoPHP\FilamentMediaManager\Form\MediaManagerInput;
 
 class NewsResource extends Resource
 {
@@ -107,15 +107,9 @@ class NewsResource extends Resource
                         Section::make(__('filament-news::filament-news.news.field.featured_image'))
                             ->compact()
                             ->schema([
-                                MediaManagerInput::make('featured_image')
-                                    ->label(__('filament-news::filament-news.news.field.featured_image'))
-                                    ->defaultItems(0)
-                                    ->hiddenLabel()
-                                    ->maxItems(1)
-                                    ->disk('public')
-                                    ->reorderable(false)
-                                    ->schema([])
-                                    ->nullable(),
+                                CuratorPicker::make('featured_image_id')
+                                    ->relationship('featured_image', 'id')
+                                    ->hiddenLabel(),
                             ]),
                         Section::make(__('filament-news::filament-news.news.field.seo'))
                             ->compact()
