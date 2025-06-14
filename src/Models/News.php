@@ -52,7 +52,7 @@ class News extends Model
         ];
     }
 
-    public function featuredImage(): BelongsTo
+    public function featured_image(): BelongsTo
     {
         return $this->belongsTo(Media::class, 'featured_image_id', 'id');
     }
