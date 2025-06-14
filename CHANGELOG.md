@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.1](https://github.com/rectitude-open/filament-news/compare/v1.12.0...v1.12.1) (2025-06-14)
+
+
+### Bug Fixes
+
+* include featured_image_id in fillable and versionable attributes of News model ([55abd2e](https://github.com/rectitude-open/filament-news/commit/55abd2e041af688296746c79885fa18ff5c67a52))
+
 ## [1.12.0](https://github.com/rectitude-open/filament-news/compare/v1.11.2...v1.12.0) (2025-06-14)
 
 
