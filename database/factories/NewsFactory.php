@@ -21,8 +21,8 @@ class NewsFactory extends Factory
         return [
             'title' => $this->faker->sentence,
             'slug' => $this->faker->slug,
-            'summary' => $this->faker->paragraph,
-            'content' => $this->faker->text,
+            'summary' => $this->faker->realText(255),
+            'content' => $this->faker->realText(255),
             'weight' => $this->faker->numberBetween(1, 100),
             'status' => $this->faker->boolean ? 1 : 0,
             'created_at' => now(),
