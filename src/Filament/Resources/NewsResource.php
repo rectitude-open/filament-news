@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace RectitudeOpen\FilamentNews\Filament\Resources;
 
 use Awcodes\Curator\Components\Forms\CuratorPicker;
+use Awcodes\Curator\Components\Tables\CuratorColumn;
 use CodeWithDennis\FilamentSelectTree\SelectTree;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Grid;
@@ -111,7 +112,8 @@ class NewsResource extends Resource
                                     ->relationship('featured_image', 'id')
                                     ->hiddenLabel()
                                     ->maxItems(1)
-                                    ->directory('news'),
+                                    ->directory('news')
+                                    ->listDisplay(true),
                             ]),
                         Section::make(__('filament-news::filament-news.news.field.seo'))
                             ->compact()
@@ -182,6 +184,9 @@ class NewsResource extends Resource
                     ->label(__('filament-news::filament-news.news.field.title'))
                     ->searchable()
                     ->limit(50),
+                CuratorColumn::make('featured_image')
+                    ->label('')
+                    ->size(30),
                 TextColumn::make('categories.title')
                     ->label(__('filament-news::filament-news.news.field.categories'))
                     ->searchable()
