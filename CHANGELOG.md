@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/rectitude-open/filament-news/compare/v1.12.3...v1.13.0) (2025-06-15)
+
+
+### Features
+
+* add CuratorColumn for featured image and enable list display ([37f125c](https://github.com/rectitude-open/filament-news/commit/37f125c172c95954695cba0c35e06d3b5eefadbe))
+
 ## [1.12.3](https://github.com/rectitude-open/filament-news/compare/v1.12.2...v1.12.3) (2025-06-14)
 
 
