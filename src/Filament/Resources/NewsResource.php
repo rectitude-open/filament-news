@@ -87,6 +87,12 @@ class NewsResource extends Resource
                             ->maxLength(255)
                             ->columnSpanFull(),
                         $editorComponent,
+                        Section::make(__('filament-news::filament-news.news.field.seo'))
+                            ->compact()
+                            ->schema([
+                                SEO::make(),
+                            ])
+                            ->collapsible(),
                     ])->columnSpan(['xl' => 2]),
                     Grid::make()->schema([
                         Section::make(__('filament-news::filament-news.news.field.taxonomy'))
@@ -115,12 +121,6 @@ class NewsResource extends Resource
                                     ->directory('news')
                                     ->listDisplay(true),
                             ]),
-                        Section::make(__('filament-news::filament-news.news.field.seo'))
-                            ->compact()
-                            ->schema([
-                                SEO::make(),
-                            ])
-                            ->collapsible(),
                         Section::make(__('filament-news::filament-news.news.field.meta'))
                             ->compact()
                             ->schema([
