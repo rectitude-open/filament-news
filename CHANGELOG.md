@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.13.1](https://github.com/rectitude-open/filament-news/compare/v1.13.0...v1.13.1) (2025-06-19)
+
+
+### Bug Fixes
+
+* update summary and content fields to use realText for better realism ([7146e5a](https://github.com/rectitude-open/filament-news/commit/7146e5a09fc94e7e28e80e947414b1e0c1be4946))
+* update translation tag in README for clarity ([b793d11](https://github.com/rectitude-open/filament-news/commit/b793d110697f2f60c6e357766b5536a22d39ab63))
+
 ## [1.13.0](https://github.com/rectitude-open/filament-news/compare/v1.12.3...v1.13.0) (2025-06-15)
 
 
