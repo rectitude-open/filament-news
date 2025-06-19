@@ -46,7 +46,7 @@ php artisan vendor:publish --tag="filament-news-config"
 Optionally, you can publish the translations using
 
 ```bash
-php artisan vendor:publish --tag="filament-news-config-translations"
+php artisan vendor:publish --tag="filament-news-translations"
 ```
 
 This is the contents of the published config file:
