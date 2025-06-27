@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.2](https://github.com/rectitude-open/filament-news/compare/v1.14.1...v1.14.2) (2025-06-27)
+
+
+### Bug Fixes
+
+* add missing import for Scope attribute in News model ([98af3c2](https://github.com/rectitude-open/filament-news/commit/98af3c2c8b85911f9d09cbf469e9e6b7b0726568))
+
 ## [1.14.1](https://github.com/rectitude-open/filament-news/compare/v1.14.0...v1.14.1) (2025-06-27)
 
 
