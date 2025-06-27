@@ -147,16 +147,16 @@ class NewsResource extends Resource
                                 ToggleButtons::make('status')
                                     ->options([
                                         1 => __('filament-news::filament-news.news.field.status_active'),
-                                        2 => __('filament-news::filament-news.news.field.status_suspended'),
+                                        0 => __('filament-news::filament-news.news.field.status_suspended'),
                                     ])
                                     ->default(1)
                                     ->colors([
                                         1 => 'success',
-                                        2 => 'warning',
+                                        0 => 'warning',
                                     ])
                                     ->icons([
                                         1 => 'heroicon-o-check-circle',
-                                        2 => 'heroicon-o-x-circle',
+                                        0 => 'heroicon-o-x-circle',
                                     ])
                                     ->inline()
                                     ->inlineLabel(),
@@ -198,12 +198,12 @@ class NewsResource extends Resource
                 IconColumn::make('status')
                     ->icon(fn ($state): string => match ($state) {
                         1 => 'heroicon-o-check-circle',
-                        2 => 'heroicon-o-x-circle',
+                        0 => 'heroicon-o-x-circle',
                         default => 'heroicon-o-question-mark-circle',
                     })
                     ->color(fn ($state): string => match ($state) {
                         1 => 'success',
-                        2 => 'danger',
+                        0 => 'danger',
                         default => 'warning',
                     }),
                 TextColumn::make('created_at')
@@ -215,7 +215,7 @@ class NewsResource extends Resource
                     ->label(__('filament-news::filament-news.news.field.status'))
                     ->options([
                         1 => __('filament-news::filament-news.news.field.status_active'),
-                        2 => __('filament-news::filament-news.news.field.status_suspended'),
+                        0 => __('filament-news::filament-news.news.field.status_suspended'),
                     ]),
                 SelectFilter::make('categories')
                     ->label(__('filament-news::filament-news.news.field.categories'))
