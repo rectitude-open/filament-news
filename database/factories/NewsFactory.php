@@ -25,7 +25,7 @@ class NewsFactory extends Factory
             'content' => $this->faker->realText(255),
             'weight' => $this->faker->numberBetween(1, 100),
             'status' => $this->faker->boolean ? 1 : 0,
-            'created_at' => now(),
+            'created_at' => $this->faker->dateTimeThisYear()
         ];
     }
 }
