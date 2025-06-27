@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.14.0](https://github.com/rectitude-open/filament-news/compare/v1.13.1...v1.14.0) (2025-06-27)
+
+
+### Features
+
+* implement getModel method to return configured news model class ([28a49fc](https://github.com/rectitude-open/filament-news/commit/28a49fc8aad964899d2947199f3fb3547b718274))
+
+
+### Bug Fixes
+
+* add created_at to versionable fields and implement query scopes for slug, active, and suspended statuses ([91e6841](https://github.com/rectitude-open/filament-news/commit/91e6841e4c7a9b96c51efbc1b99a5b8cae719fd4))
+* update created_at field to use faker's dateTimeThisYear for consistency ([1d8dc78](https://github.com/rectitude-open/filament-news/commit/1d8dc78400d8b4ee3c33881d6bec76d55c478eca))
+
+
+### Miscellaneous Chores
+
+* style fix ([d3d296e](https://github.com/rectitude-open/filament-news/commit/d3d296e5f477c6f99447f67b38037e2d4ca0a072))
+
 ## [1.13.1](https://github.com/rectitude-open/filament-news/compare/v1.13.0...v1.13.1) (2025-06-19)
 
 
