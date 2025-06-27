@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.1](https://github.com/rectitude-open/filament-news/compare/v1.14.0...v1.14.1) (2025-06-27)
+
+
+### Bug Fixes
+
+* update status values to use 0 for suspended and adjust related icons and colors ([6a710e2](https://github.com/rectitude-open/filament-news/commit/6a710e29410701cd5a7d532baa32beeea542040f))
+
 ## [1.14.0](https://github.com/rectitude-open/filament-news/compare/v1.13.1...v1.14.0) (2025-06-27)
 
 
