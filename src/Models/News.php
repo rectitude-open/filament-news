@@ -48,6 +48,8 @@ class News extends Model
 
     protected $versionStrategy = VersionStrategy::SNAPSHOT;
 
+    protected $with = ['featured_image'];
+
     public function categories()
     {
         return $this->belongsToMany(NewsCategory::class, 'pivot_news_categories', 'news_id', 'category_id');
@@ -93,6 +95,14 @@ class News extends Model
     public function suspended(Builder $query): void
     {
         $query->where('status', 0);
+    }
+
+    // @phpstan-ignore-next-line
+    #[Scope]
+    public function ordered(Builder $query): void
+    {
+        $query->orderBy('weight', 'desc')
+            ->orderBy('created_at', 'desc');
     }
 
     protected static function newFactory()
