@@ -145,6 +145,7 @@ class NewsResource extends Resource
                                     ->maxLength(255)
                                     ->columnSpanFull(),
                                 ToggleButtons::make('status')
+                                    ->label(__('filament-news::filament-news.news.field.status'))
                                     ->options([
                                         1 => __('filament-news::filament-news.news.field.status_active'),
                                         0 => __('filament-news::filament-news.news.field.status_suspended'),
@@ -196,6 +197,7 @@ class NewsResource extends Resource
                 SpatieTagsColumn::make('tags')
                     ->label(__('filament-news::filament-news.news.field.tags')),
                 IconColumn::make('status')
+                    ->label(__('filament-news::filament-news.news.field.status'))
                     ->icon(fn ($state): string => match ($state) {
                         1 => 'heroicon-o-check-circle',
                         0 => 'heroicon-o-x-circle',
