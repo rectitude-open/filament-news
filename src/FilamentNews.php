@@ -20,7 +20,6 @@ class FilamentNews
      */
     public function getLatestActiveNewsPaginated(int $perPage = 10): LengthAwarePaginator
     {
-        // @phpstan-ignore-next-line
-        return $this->getModel()::latest()->published()->paginate($perPage);
+        return $this->getModel()::ordered()->published()->paginate($perPage);
     }
 }
