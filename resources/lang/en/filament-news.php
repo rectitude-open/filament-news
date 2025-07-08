@@ -26,8 +26,8 @@ return [
             'weight' => 'Weight',
             'status' => 'Status',
             'created_at' => 'Created At',
-            'status_active' => 'Active',
-            'status_suspended' => 'Suspended',
+            'status_published' => 'Published',
+            'status_draft' => 'Draft',
         ],
         'info' => [
             'select_categories' => 'Select Categories',

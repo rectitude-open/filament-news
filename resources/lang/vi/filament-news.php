@@ -26,8 +26,8 @@ return [
             'weight' => 'Trọng số',
             'status' => 'Trạng thái',
             'created_at' => 'Ngày tạo',
-            'status_active' => 'Hoạt động',
-            'status_suspended' => 'Tạm ngưng',
+            'status_published' => 'Đã xuất bản',
+            'status_draft' => 'Bản nháp',
         ],
         'info' => [
             'select_categories' => 'Chọn danh mục',

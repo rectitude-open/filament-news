@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Berita',
+            'group' => 'Konten',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Berita',
@@ -20,8 +26,8 @@ return [
             'weight' => 'Bobot',
             'status' => 'Status',
             'created_at' => 'Dibuat pada',
-            'status_active' => 'Aktif',
-            'status_suspended' => 'Ditangguhkan',
+            'status_published' => 'Dipublikasikan',
+            'status_draft' => 'Draf',
         ],
         'info' => [
             'select_categories' => 'Pilih Kategori',
@@ -46,12 +52,6 @@ return [
             'slug' => 'Slug',
             'weight' => 'Bobot',
             'count' => 'Jumlah',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Berita',
-            'group' => 'Konten',
         ],
     ],
 ];

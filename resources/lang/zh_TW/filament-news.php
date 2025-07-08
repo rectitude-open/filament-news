@@ -15,8 +15,8 @@ return [
         'field' => [
             'content' => '內容',
             'title' => '標題',
-            'taxonomy' => '分類',
-            'categories' => '類別',
+            'taxonomy' => '分類法',
+            'categories' => '分類',
             'tags' => '標籤',
             'featured_image' => '精選圖片',
             'seo' => 'SEO',
@@ -26,16 +26,16 @@ return [
             'weight' => '權重',
             'status' => '狀態',
             'created_at' => '建立時間',
-            'status_active' => '啟用',
-            'status_suspended' => '停用',
+            'status_published' => '已發佈',
+            'status_draft' => '草稿',
         ],
         'info' => [
-            'select_categories' => '選擇類別',
+            'select_categories' => '選擇分類',
         ],
     ],
     'news_category' => [
         'nav' => [
-            'label' => '新聞類別',
+            'label' => '新聞分類',
             'group' => '',
         ],
         'field' => [

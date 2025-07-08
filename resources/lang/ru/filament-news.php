@@ -1,13 +1,19 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Новости',
+            'group' => 'Контент',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Новости',
             'group' => '',
         ],
         'field' => [
-            'content' => 'Содержание',
+            'content' => 'Контент',
             'title' => 'Заголовок',
             'taxonomy' => 'Таксономия',
             'categories' => 'Категории',
@@ -16,15 +22,15 @@ return [
             'seo' => 'SEO',
             'meta' => 'Мета',
             'slug' => 'Слаг',
-            'summary' => 'Кратко',
+            'summary' => 'Резюме',
             'weight' => 'Вес',
             'status' => 'Статус',
-            'created_at' => 'Дата создания',
-            'status_active' => 'Активно',
-            'status_suspended' => 'Приостановлено',
+            'created_at' => 'Создано',
+            'status_published' => 'Опубликовано',
+            'status_draft' => 'Черновик',
         ],
         'info' => [
-            'select_categories' => 'Выбрать категории',
+            'select_categories' => 'Выберите категории',
         ],
     ],
     'news_category' => [
@@ -46,12 +52,6 @@ return [
             'slug' => 'Слаг',
             'weight' => 'Вес',
             'count' => 'Количество',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Новости',
-            'group' => 'Контент',
         ],
     ],
 ];

@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Hírek',
+            'group' => 'Tartalom',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Hírek',
@@ -20,8 +26,8 @@ return [
             'weight' => 'Súly',
             'status' => 'Állapot',
             'created_at' => 'Létrehozva',
-            'status_active' => 'Aktív',
-            'status_suspended' => 'Felfüggesztve',
+            'status_published' => 'Közzétéve',
+            'status_draft' => 'Piszkozat',
         ],
         'info' => [
             'select_categories' => 'Kategóriák kiválasztása',
@@ -46,12 +52,6 @@ return [
             'slug' => 'Slug',
             'weight' => 'Súly',
             'count' => 'Darab',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Hírek',
-            'group' => 'Tartalom',
         ],
     ],
 ];

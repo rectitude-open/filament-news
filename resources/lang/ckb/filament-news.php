@@ -3,13 +3,13 @@
 return [
     'cluster' => [
         'nav' => [
-            'label' => 'نووسینەکان',
-            'group' => 'ناوەرۆک',
+            'label' => 'هەواڵ',
+            'group' => 'ناوەڕۆک',
         ],
     ],
     'news' => [
         'nav' => [
-            'label' => 'نووسینەکان',
+            'label' => 'هەواڵ',
             'group' => '',
         ],
         'field' => [
@@ -23,19 +23,19 @@ return [
             'meta' => 'مێتا',
             'slug' => 'سلەگ',
             'summary' => 'پوختە',
-            'weight' => 'گرنگی',
+            'weight' => 'پێوانە',
             'status' => 'دۆخ',
             'created_at' => 'دروستکراوە لە',
-            'status_active' => 'چالاک',
-            'status_suspended' => 'وەستاندراو',
+            'status_published' => 'بڵاوکراوەتەوە',
+            'status_draft' => 'پڕۆژە',
         ],
         'info' => [
-            'select_categories' => 'هاوپۆل هەڵبژێرە',
+            'select_categories' => 'هاوپۆل هەلبژێرە',
         ],
     ],
     'news_category' => [
         'nav' => [
-            'label' => 'هاوپۆلە نووسینەکان',
+            'label' => 'هاوپۆلەکانی هەواڵ',
             'group' => '',
         ],
         'field' => [
@@ -50,7 +50,7 @@ return [
         'field' => [
             'name' => 'ناو',
             'slug' => 'سلەگ',
-            'weight' => 'گرنگی',
+            'weight' => 'پێوانە',
             'count' => 'ژمارە',
         ],
     ],

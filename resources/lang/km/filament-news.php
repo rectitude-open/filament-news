@@ -9,25 +9,25 @@ return [
     ],
     'news' => [
         'nav' => [
-            'label' => 'ពត៌មាន',
+            'label' => 'ព័ត៌មាន',
             'group' => '',
         ],
         'field' => [
             'content' => 'មាតិកា',
             'title' => 'ចំណងជើង',
-            'taxonomy' => 'ចំណាត់ថ្នាក់',
+            'taxonomy' => 'តាក់សូណូមី',
             'categories' => 'ប្រភេទ',
             'tags' => 'ស្លាក',
             'featured_image' => 'រូបភាពពិសេស',
             'seo' => 'SEO',
             'meta' => 'មេតា',
-            'slug' => 'ស្លាកសញ្ញា',
+            'slug' => 'ស្លាក់',
             'summary' => 'សង្ខេប',
             'weight' => 'ទំងន់',
             'status' => 'ស្ថានភាព',
             'created_at' => 'បង្កើតនៅ',
-            'status_active' => 'សកម្ម',
-            'status_suspended' => 'ផ្អាក',
+            'status_published' => 'បានផ្សព្វផ្សាយ',
+            'status_draft' => 'សេចក្តីព្រាង',
         ],
         'info' => [
             'select_categories' => 'ជ្រើសប្រភេទ',
@@ -35,7 +35,7 @@ return [
     ],
     'news_category' => [
         'nav' => [
-            'label' => 'ប្រភេទពត៌មាន',
+            'label' => 'ប្រភេទព័ត៌មាន',
             'group' => '',
         ],
         'field' => [
@@ -49,7 +49,7 @@ return [
         ],
         'field' => [
             'name' => 'ឈ្មោះ',
-            'slug' => 'ស្លាកសញ្ញា',
+            'slug' => 'ស្លាក់',
             'weight' => 'ទំងន់',
             'count' => 'ចំនួន',
         ],

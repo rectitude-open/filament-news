@@ -26,8 +26,8 @@ return [
             'weight' => 'وزن',
             'status' => 'وضعیت',
             'created_at' => 'تاریخ ایجاد',
-            'status_active' => 'فعال',
-            'status_suspended' => 'معلق',
+            'status_published' => 'منتشر شده',
+            'status_draft' => 'پیش‌نویس',
         ],
         'info' => [
             'select_categories' => 'انتخاب دسته‌بندی‌ها',

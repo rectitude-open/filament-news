@@ -25,9 +25,9 @@ return [
             'summary' => 'Resumen',
             'weight' => 'Peso',
             'status' => 'Estado',
-            'created_at' => 'Creado el',
-            'status_active' => 'Activo',
-            'status_suspended' => 'Suspendido',
+            'created_at' => 'Creado en',
+            'status_published' => 'Publicado',
+            'status_draft' => 'Borrador',
         ],
         'info' => [
             'select_categories' => 'Seleccionar categorías',

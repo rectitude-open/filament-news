@@ -147,8 +147,8 @@ class NewsResource extends Resource
                                 ToggleButtons::make('status')
                                     ->label(__('filament-news::filament-news.news.field.status'))
                                     ->options([
-                                        1 => __('filament-news::filament-news.news.field.status_active'),
-                                        0 => __('filament-news::filament-news.news.field.status_suspended'),
+                                        1 => __('filament-news::filament-news.news.field.status_published'),
+                                        0 => __('filament-news::filament-news.news.field.status_draft'),
                                     ])
                                     ->default(1)
                                     ->colors([
@@ -216,8 +216,8 @@ class NewsResource extends Resource
                 SelectFilter::make('status')
                     ->label(__('filament-news::filament-news.news.field.status'))
                     ->options([
-                        1 => __('filament-news::filament-news.news.field.status_active'),
-                        0 => __('filament-news::filament-news.news.field.status_suspended'),
+                        1 => __('filament-news::filament-news.news.field.status_published'),
+                        0 => __('filament-news::filament-news.news.field.status_draft'),
                     ]),
                 SelectFilter::make('categories')
                     ->label(__('filament-news::filament-news.news.field.categories'))

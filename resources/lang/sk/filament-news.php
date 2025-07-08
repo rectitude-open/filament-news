@@ -3,13 +3,13 @@
 return [
     'cluster' => [
         'nav' => [
-            'label' => 'Správy',
+            'label' => 'Novinky',
             'group' => 'Obsah',
         ],
     ],
     'news' => [
         'nav' => [
-            'label' => 'Správy',
+            'label' => 'Novinky',
             'group' => '',
         ],
         'field' => [
@@ -26,8 +26,8 @@ return [
             'weight' => 'Váha',
             'status' => 'Stav',
             'created_at' => 'Vytvorené',
-            'status_active' => 'Aktívny',
-            'status_suspended' => 'Pozastavený',
+            'status_published' => 'Publikované',
+            'status_draft' => 'Návrh',
         ],
         'info' => [
             'select_categories' => 'Vyberte kategórie',
@@ -35,7 +35,7 @@ return [
     ],
     'news_category' => [
         'nav' => [
-            'label' => 'Kategórie správ',
+            'label' => 'Kategórie noviniek',
             'group' => '',
         ],
         'field' => [

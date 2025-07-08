@@ -18,7 +18,7 @@ return [
             'taxonomy' => 'Տաքսոնոմիա',
             'categories' => 'Կատեգորիաներ',
             'tags' => 'Պիտակներ',
-            'featured_image' => 'Առանձնացված պատկեր',
+            'featured_image' => 'Առաջարկվող պատկեր',
             'seo' => 'SEO',
             'meta' => 'Մետա',
             'slug' => 'Հղում',
@@ -26,11 +26,11 @@ return [
             'weight' => 'Քաշ',
             'status' => 'Կարգավիճակ',
             'created_at' => 'Ստեղծվել է',
-            'status_active' => 'Ակտիվ',
-            'status_suspended' => 'Կասեցված',
+            'status_published' => 'Հրապարակված',
+            'status_draft' => 'Սևագիր',
         ],
         'info' => [
-            'select_categories' => 'Ընտրել կատեգորիաներ',
+            'select_categories' => 'Ընտրեք կատեգորիաներ',
         ],
     ],
     'news_category' => [

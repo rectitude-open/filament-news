@@ -1,16 +1,22 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'ニュース',
+            'group' => 'コンテンツ',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'ニュース',
             'group' => '',
         ],
         'field' => [
-            'content' => '内容',
+            'content' => 'コンテンツ',
             'title' => 'タイトル',
             'taxonomy' => '分類',
-            'categories' => 'カテゴリー',
+            'categories' => 'カテゴリ',
             'tags' => 'タグ',
             'featured_image' => 'アイキャッチ画像',
             'seo' => 'SEO',
@@ -20,11 +26,11 @@ return [
             'weight' => '重み',
             'status' => 'ステータス',
             'created_at' => '作成日',
-            'status_active' => '有効',
-            'status_suspended' => '停止',
+            'status_published' => '公開済み',
+            'status_draft' => '下書き',
         ],
         'info' => [
-            'select_categories' => 'カテゴリーを選択',
+            'select_categories' => 'カテゴリを選択',
         ],
     ],
     'news_category' => [
@@ -46,12 +52,6 @@ return [
             'slug' => 'スラッグ',
             'weight' => '重み',
             'count' => '数',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'ニュース',
-            'group' => 'コンテンツ',
         ],
     ],
 ];

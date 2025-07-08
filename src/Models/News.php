@@ -32,6 +32,11 @@ use Spatie\Tags\HasTags;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \RectitudeOpen\FilamentNews\Models\NewsCategory> $categories
  * @property-read int|null $categories_count
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|static ordered()
+ * @method static \Illuminate\Database\Eloquent\Builder|static withSlug(string $slug)
+ * @method static \Illuminate\Database\Eloquent\Builder|static published()
+ * @method static \Illuminate\Database\Eloquent\Builder|static draft()
  */
 class News extends Model
 {
@@ -85,21 +90,21 @@ class News extends Model
 
     // @phpstan-ignore-next-line
     #[Scope]
-    public function active(Builder $query): void
+    protected function published(Builder $query): void
     {
         $query->where('status', 1);
     }
 
     // @phpstan-ignore-next-line
     #[Scope]
-    public function suspended(Builder $query): void
+    protected function draft(Builder $query): void
     {
         $query->where('status', 0);
     }
 
     // @phpstan-ignore-next-line
     #[Scope]
-    public function ordered(Builder $query): void
+    protected function ordered(Builder $query): void
     {
         $query->orderBy('weight', 'desc')
             ->orderBy('created_at', 'desc');

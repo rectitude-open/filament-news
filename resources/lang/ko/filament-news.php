@@ -1,13 +1,19 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => '뉴스',
+            'group' => '콘텐츠',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => '뉴스',
             'group' => '',
         ],
         'field' => [
-            'content' => '내용',
+            'content' => '콘텐츠',
             'title' => '제목',
             'taxonomy' => '분류',
             'categories' => '카테고리',
@@ -20,8 +26,8 @@ return [
             'weight' => '가중치',
             'status' => '상태',
             'created_at' => '생성일',
-            'status_active' => '활성',
-            'status_suspended' => '중지',
+            'status_published' => '게시됨',
+            'status_draft' => '임시저장',
         ],
         'info' => [
             'select_categories' => '카테고리 선택',
@@ -46,12 +52,6 @@ return [
             'slug' => '슬러그',
             'weight' => '가중치',
             'count' => '개수',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => '뉴스',
-            'group' => '콘텐츠',
         ],
     ],
 ];

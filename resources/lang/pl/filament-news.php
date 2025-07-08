@@ -1,9 +1,15 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Aktualności',
+            'group' => 'Treść',
+        ],
+    ],
     'news' => [
         'nav' => [
-            'label' => 'Wiadomości',
+            'label' => 'Aktualności',
             'group' => '',
         ],
         'field' => [
@@ -20,8 +26,8 @@ return [
             'weight' => 'Waga',
             'status' => 'Status',
             'created_at' => 'Utworzono',
-            'status_active' => 'Aktywny',
-            'status_suspended' => 'Zawieszony',
+            'status_published' => 'Opublikowano',
+            'status_draft' => 'Szkic',
         ],
         'info' => [
             'select_categories' => 'Wybierz kategorie',
@@ -29,7 +35,7 @@ return [
     ],
     'news_category' => [
         'nav' => [
-            'label' => 'Kategorie wiadomości',
+            'label' => 'Kategorie aktualności',
             'group' => '',
         ],
         'field' => [
@@ -46,12 +52,6 @@ return [
             'slug' => 'Slug',
             'weight' => 'Waga',
             'count' => 'Liczba',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Wiadomości',
-            'group' => 'Treść',
         ],
     ],
 ];

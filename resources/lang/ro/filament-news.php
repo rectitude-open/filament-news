@@ -26,8 +26,8 @@ return [
             'weight' => 'Greutate',
             'status' => 'Stare',
             'created_at' => 'Creat la',
-            'status_active' => 'Activ',
-            'status_suspended' => 'Suspendat',
+            'status_published' => 'Publicat',
+            'status_draft' => 'Schiță',
         ],
         'info' => [
             'select_categories' => 'Selectați categorii',

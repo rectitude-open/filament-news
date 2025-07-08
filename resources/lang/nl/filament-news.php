@@ -26,8 +26,8 @@ return [
             'weight' => 'Gewicht',
             'status' => 'Status',
             'created_at' => 'Aangemaakt op',
-            'status_active' => 'Actief',
-            'status_suspended' => 'Opgeschort',
+            'status_published' => 'Gepubliceerd',
+            'status_draft' => 'Concept',
         ],
         'info' => [
             'select_categories' => 'Selecteer categorieën',

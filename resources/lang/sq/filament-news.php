@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Lajme',
+            'group' => 'Përmbajtje',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Lajme',
@@ -20,8 +26,8 @@ return [
             'weight' => 'Pesha',
             'status' => 'Statusi',
             'created_at' => 'Krijuar më',
-            'status_active' => 'Aktiv',
-            'status_suspended' => 'Pezulluar',
+            'status_published' => 'Publikuar',
+            'status_draft' => 'Draft',
         ],
         'info' => [
             'select_categories' => 'Zgjidhni kategoritë',
@@ -46,12 +52,6 @@ return [
             'slug' => 'Slug',
             'weight' => 'Pesha',
             'count' => 'Numri',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Lajme',
-            'group' => 'Përmbajtje',
         ],
     ],
 ];

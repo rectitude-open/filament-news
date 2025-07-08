@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Actualités',
+            'group' => 'Contenu',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Actualités',
@@ -11,17 +17,17 @@ return [
             'title' => 'Titre',
             'taxonomy' => 'Taxonomie',
             'categories' => 'Catégories',
-            'tags' => 'Étiquettes',
+            'tags' => 'Tags',
             'featured_image' => 'Image à la une',
             'seo' => 'SEO',
-            'meta' => 'Méta',
+            'meta' => 'Meta',
             'slug' => 'Slug',
             'summary' => 'Résumé',
             'weight' => 'Poids',
             'status' => 'Statut',
             'created_at' => 'Créé le',
-            'status_active' => 'Actif',
-            'status_suspended' => 'Suspendu',
+            'status_published' => 'Publié',
+            'status_draft' => 'Brouillon',
         ],
         'info' => [
             'select_categories' => 'Sélectionner les catégories',
@@ -38,7 +44,7 @@ return [
     ],
     'tag' => [
         'nav' => [
-            'label' => 'Étiquettes',
+            'label' => 'Tags',
             'group' => '',
         ],
         'field' => [
@@ -46,12 +52,6 @@ return [
             'slug' => 'Slug',
             'weight' => 'Poids',
             'count' => 'Nombre',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Actualités',
-            'group' => 'Contenu',
         ],
     ],
 ];

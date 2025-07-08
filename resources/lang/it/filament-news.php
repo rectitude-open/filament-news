@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'cluster' => [
+        'nav' => [
+            'label' => 'Notizie',
+            'group' => 'Contenuto',
+        ],
+    ],
     'news' => [
         'nav' => [
             'label' => 'Notizie',
@@ -20,8 +26,8 @@ return [
             'weight' => 'Peso',
             'status' => 'Stato',
             'created_at' => 'Creato il',
-            'status_active' => 'Attivo',
-            'status_suspended' => 'Sospeso',
+            'status_published' => 'Pubblicato',
+            'status_draft' => 'Bozza',
         ],
         'info' => [
             'select_categories' => 'Seleziona categorie',
@@ -29,7 +35,7 @@ return [
     ],
     'news_category' => [
         'nav' => [
-            'label' => 'Categorie Notizie',
+            'label' => 'Categorie di notizie',
             'group' => '',
         ],
         'field' => [
@@ -46,12 +52,6 @@ return [
             'slug' => 'Slug',
             'weight' => 'Peso',
             'count' => 'Conteggio',
-        ],
-    ],
-    'cluster' => [
-        'nav' => [
-            'label' => 'Notizie',
-            'group' => 'Contenuto',
         ],
     ],
 ];

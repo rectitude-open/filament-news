@@ -3,13 +3,13 @@
 return [
     'cluster' => [
         'nav' => [
-            'label' => 'Nûçeyên',
+            'label' => 'Nûçe',
             'group' => 'Naverok',
         ],
     ],
     'news' => [
         'nav' => [
-            'label' => 'Nûçeyên',
+            'label' => 'Nûçe',
             'group' => '',
         ],
         'field' => [
@@ -25,9 +25,9 @@ return [
             'summary' => 'Kurte',
             'weight' => 'Girîngî',
             'status' => 'Rewş',
-            'status_active' => 'Çalak',
-            'status_suspended' => 'Rawestî',
-            'created_at' => 'Dema çêkirinê',
+            'created_at' => 'Dîrokê çêkirinê',
+            'status_published' => 'Weşandî',
+            'status_draft' => 'Qert',
         ],
         'info' => [
             'select_categories' => 'Kategorî hilbijêre',

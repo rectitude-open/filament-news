@@ -26,8 +26,8 @@ return [
             'weight' => 'Svars',
             'status' => 'Statuss',
             'created_at' => 'Izveidots',
-            'status_active' => 'Aktīvs',
-            'status_suspended' => 'Apturēts',
+            'status_published' => 'Publicēts',
+            'status_draft' => 'Melnraksts',
         ],
         'info' => [
             'select_categories' => 'Izvēlieties kategorijas',

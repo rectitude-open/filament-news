@@ -3,13 +3,13 @@
 return [
     'cluster' => [
         'nav' => [
-            'label' => 'ახალი ამბები',
+            'label' => 'სიახლეები',
             'group' => 'შინაარსი',
         ],
     ],
     'news' => [
         'nav' => [
-            'label' => 'ახალი ამბები',
+            'label' => 'სიახლეები',
             'group' => '',
         ],
         'field' => [
@@ -17,7 +17,7 @@ return [
             'title' => 'სათაური',
             'taxonomy' => 'ტაქსონომია',
             'categories' => 'კატეგორიები',
-            'tags' => 'ჭდეები',
+            'tags' => 'თეგები',
             'featured_image' => 'გამორჩეული სურათი',
             'seo' => 'SEO',
             'meta' => 'მეტა',
@@ -26,8 +26,8 @@ return [
             'weight' => 'წონა',
             'status' => 'სტატუსი',
             'created_at' => 'შექმნის თარიღი',
-            'status_active' => 'აქტიური',
-            'status_suspended' => 'შეჩერებული',
+            'status_published' => 'გამოქვეყნებული',
+            'status_draft' => 'მონახაზი',
         ],
         'info' => [
             'select_categories' => 'აირჩიეთ კატეგორიები',
@@ -35,7 +35,7 @@ return [
     ],
     'news_category' => [
         'nav' => [
-            'label' => 'ახალი ამბების კატეგორიები',
+            'label' => 'სიახლეების კატეგორიები',
             'group' => '',
         ],
         'field' => [
@@ -44,7 +44,7 @@ return [
     ],
     'tag' => [
         'nav' => [
-            'label' => 'ჭდეები',
+            'label' => 'თეგები',
             'group' => '',
         ],
         'field' => [
