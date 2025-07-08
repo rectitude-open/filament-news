@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.15.0](https://github.com/rectitude-open/filament-news/compare/v1.14.2...v1.15.0) (2025-07-08)
+
+
+### Features
+
+* add eager loading for featured image and implement ordered scope in News model ([08c9a61](https://github.com/rectitude-open/filament-news/commit/08c9a61b3b0a2d2e8afced6914d5b58feb8ef65b))
+* add getLatestActiveNewsPaginated method in FilamentNews ([56a7893](https://github.com/rectitude-open/filament-news/commit/56a7893b2b2f62281fecccc75cc882bfa52337ba))
+
+
+### Bug Fixes
+
+* add labels for status field in NewsResource form and table ([44212d7](https://github.com/rectitude-open/filament-news/commit/44212d794e481ffad33ead6159641194ce329344))
+* update getLatestActiveNewsPaginated to use ordered scope instead of latest ([70e64c7](https://github.com/rectitude-open/filament-news/commit/70e64c77482e80bc0ea3e9270150435fd83f677b))
+
 ## [1.14.2](https://github.com/rectitude-open/filament-news/compare/v1.14.1...v1.14.2) (2025-06-27)
 
 
