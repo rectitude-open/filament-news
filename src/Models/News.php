@@ -17,6 +17,7 @@ use Overtrue\LaravelVersionable\VersionStrategy;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
 use RectitudeOpen\FilamentNews\Database\Factories\NewsFactory;
 use Spatie\Tags\HasTags;
+use RalphJSmit\Laravel\SEO\Models\SEO;
 
 /**
  * @property int $id
@@ -32,6 +33,8 @@ use Spatie\Tags\HasTags;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \RectitudeOpen\FilamentNews\Models\NewsCategory> $categories
  * @property-read int|null $categories_count
+ * @property Media|null $featured_image
+ * @property SEO $seo
  *
  * @method static \Illuminate\Database\Eloquent\Builder|static ordered()
  * @method static \Illuminate\Database\Eloquent\Builder|static withSlug(string $slug)
@@ -53,7 +56,7 @@ class News extends Model
 
     protected $versionStrategy = VersionStrategy::SNAPSHOT;
 
-    protected $with = ['featured_image'];
+    protected $with = ['featured_image', 'seo'];
 
     public function categories()
     {
