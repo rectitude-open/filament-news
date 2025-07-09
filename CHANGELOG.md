@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.15.1](https://github.com/rectitude-open/filament-news/compare/v1.15.0...v1.15.1) (2025-07-09)
+
+
+### Bug Fixes
+
+* rename getLatestActiveNewsPaginated to getLatestPublishedNewsPaginated for clarity ([b156c6b](https://github.com/rectitude-open/filament-news/commit/b156c6b49722f3ecf66dfe9443f4067962c9322f))
+* reorder use statements for consistency in News model ([620491f](https://github.com/rectitude-open/filament-news/commit/620491fd2d99b793ceebc3e068d9c47bae6c0d53))
+
 ## [1.15.0](https://github.com/rectitude-open/filament-news/compare/v1.14.2...v1.15.0) (2025-07-08)
 
 
