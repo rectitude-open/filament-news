@@ -18,7 +18,7 @@ class FilamentNews
     /**
      * @return LengthAwarePaginator<News>
      */
-    public function getLatestActiveNewsPaginated(int $perPage = 10): LengthAwarePaginator
+    public function getLatestPublishedNewsPaginated(int $perPage = 10): LengthAwarePaginator
     {
         return $this->getModel()::ordered()->published()->paginate($perPage);
     }
