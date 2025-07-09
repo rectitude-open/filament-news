@@ -14,10 +14,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Overtrue\LaravelVersionable\Versionable;
 use Overtrue\LaravelVersionable\VersionStrategy;
+use RalphJSmit\Laravel\SEO\Models\SEO;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
 use RectitudeOpen\FilamentNews\Database\Factories\NewsFactory;
 use Spatie\Tags\HasTags;
-use RalphJSmit\Laravel\SEO\Models\SEO;
 
 /**
  * @property int $id
