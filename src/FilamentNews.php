@@ -19,10 +19,25 @@ class FilamentNews
     /**
      * @return LengthAwarePaginator<News>
      */
-    public function getLatestPublishedNewsPaginated(int $perPage = 10): LengthAwarePaginator
+    public function listNewsPaginated(int $perPage = 10): LengthAwarePaginator
     {
         // @phpstan-ignore-next-line
         return $this->getModel()::with(['categories'])->ordered()->published()->paginate($perPage);
+    }
+
+    /**
+     * @return LengthAwarePaginator<News>
+     */
+    public function listNewsPaginatedByCategory(int $categoryId, int $perPage = 10): LengthAwarePaginator
+    {
+        // @phpstan-ignore-next-line
+        return $this->getModel()::with(['categories'])
+            ->published()
+            ->whereHas('categories', function ($query) use ($categoryId) {
+                $query->where('news_categories.id', $categoryId);
+            })
+            ->ordered()
+            ->paginate($perPage);
     }
 
     /**
