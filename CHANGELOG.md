@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.1](https://github.com/rectitude-open/filament-news/compare/v1.16.0...v1.16.1) (2025-07-17)
+
+
+### Bug Fixes
+
+* default value for external_link and enhance icon and tooltip ([56b89fc](https://github.com/rectitude-open/filament-news/commit/56b89fc48677f07d85d7a969ff78089034b920e5))
+
 ## [1.16.0](https://github.com/rectitude-open/filament-news/compare/v1.15.1...v1.16.0) (2025-07-17)
 
 
