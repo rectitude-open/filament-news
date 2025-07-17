@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.0](https://github.com/rectitude-open/filament-news/compare/v1.16.1...v1.17.0) (2025-07-17)
+
+
+### Features
+
+* add listNewsPaginatedByCategory method ([9c7903f](https://github.com/rectitude-open/filament-news/commit/9c7903f8babebe7edc413002b5ad1b0eac708acc))
+
 ## [1.16.1](https://github.com/rectitude-open/filament-news/compare/v1.16.0...v1.16.1) (2025-07-17)
 
 
