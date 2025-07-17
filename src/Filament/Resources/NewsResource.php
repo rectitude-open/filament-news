@@ -134,7 +134,8 @@ class NewsResource extends Resource
                                     ->url()
                                     ->maxLength(255)
                                     ->inlineLabel()
-                                    ->columnSpanFull(),
+                                    ->columnSpanFull()
+                                    ->dehydrateStateUsing(fn ($state) => $state ?? ''),
                                 Textarea::make('summary')
                                     ->label(__('filament-news::filament-news.news.field.summary'))
                                     ->default('')
@@ -194,6 +195,14 @@ class NewsResource extends Resource
                 CuratorColumn::make('featured_image')
                     ->label('')
                     ->size(30),
+                IconColumn::make('external_link')
+                    ->label('')
+                    ->boolean()
+                    ->icon(fn ($state) => $state ? 'heroicon-o-arrow-top-right-on-square' : null)
+                    ->color(fn ($state) => $state ? 'primary' : null)
+                    ->tooltip(fn ($record) => $record->external_link)
+                    ->url(fn ($record) => $record->external_link, true)
+                    ->openUrlInNewTab(),
                 TextColumn::make('categories.title')
                     ->label(__('filament-news::filament-news.news.field.categories'))
                     ->searchable()
@@ -202,18 +211,6 @@ class NewsResource extends Resource
                     ->html(),
                 SpatieTagsColumn::make('tags')
                     ->label(__('filament-news::filament-news.news.field.tags')),
-                TextColumn::make('external_link')
-                    ->label(__('filament-news::filament-news.news.field.external_link'))
-                    ->limit(50)
-                    ->tooltip(function (TextColumn $column): ?string {
-                        $state = $column->getState();
-
-                        return $state ? $state : null;
-                    })
-                    ->url(fn ($record) => $record->external_link, true)
-                    ->openUrlInNewTab()
-                    ->icon('heroicon-o-arrow-top-right-on-square')
-                    ->iconPosition('after'),
                 IconColumn::make('status')
                     ->label(__('filament-news::filament-news.news.field.status'))
                     ->icon(fn ($state): string => match ($state) {
