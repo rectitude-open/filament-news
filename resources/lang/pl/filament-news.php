@@ -28,6 +28,7 @@ return [
             'created_at' => 'Utworzono',
             'status_published' => 'Opublikowano',
             'status_draft' => 'Szkic',
+            'external_link' => 'Link zewnętrzny',
         ],
         'info' => [
             'select_categories' => 'Wybierz kategorie',

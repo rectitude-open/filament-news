@@ -28,6 +28,7 @@ return [
             'created_at' => 'تاریخ ایجاد',
             'status_published' => 'منتشر شده',
             'status_draft' => 'پیش‌نویس',
+            'external_link' => 'لینک خارجی',
         ],
         'info' => [
             'select_categories' => 'انتخاب دسته‌بندی‌ها',

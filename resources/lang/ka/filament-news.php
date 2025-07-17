@@ -28,6 +28,7 @@ return [
             'created_at' => 'შექმნის თარიღი',
             'status_published' => 'გამოქვეყნებული',
             'status_draft' => 'მონახაზი',
+            'external_link' => 'გარე ბმული',
         ],
         'info' => [
             'select_categories' => 'აირჩიეთ კატეგორიები',

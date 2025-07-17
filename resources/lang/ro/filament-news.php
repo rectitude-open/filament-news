@@ -28,6 +28,7 @@ return [
             'created_at' => 'Creat la',
             'status_published' => 'Publicat',
             'status_draft' => 'Schiță',
+            'external_link' => 'Link extern',
         ],
         'info' => [
             'select_categories' => 'Selectați categorii',

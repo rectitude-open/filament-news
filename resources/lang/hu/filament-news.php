@@ -28,6 +28,7 @@ return [
             'created_at' => 'Létrehozva',
             'status_published' => 'Közzétéve',
             'status_draft' => 'Piszkozat',
+            'external_link' => 'Külső link',
         ],
         'info' => [
             'select_categories' => 'Kategóriák kiválasztása',

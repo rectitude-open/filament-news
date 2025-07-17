@@ -28,6 +28,7 @@ return [
             'created_at' => 'Created At',
             'status_published' => 'Published',
             'status_draft' => 'Draft',
+            'external_link' => 'External Link',
         ],
         'info' => [
             'select_categories' => 'Select Categories',

@@ -28,6 +28,7 @@ return [
             'created_at' => 'Dîrokê çêkirinê',
             'status_published' => 'Weşandî',
             'status_draft' => 'Qert',
+            'external_link' => 'Girêdana derveyî',
         ],
         'info' => [
             'select_categories' => 'Kategorî hilbijêre',

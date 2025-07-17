@@ -28,6 +28,7 @@ return [
             'created_at' => 'Dibuat pada',
             'status_published' => 'Dipublikasikan',
             'status_draft' => 'Draf',
+            'external_link' => 'Tautan eksternal',
         ],
         'info' => [
             'select_categories' => 'Pilih Kategori',

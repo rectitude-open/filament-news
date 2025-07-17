@@ -28,6 +28,7 @@ return [
             'created_at' => '생성일',
             'status_published' => '게시됨',
             'status_draft' => '임시저장',
+            'external_link' => '외부 링크',
         ],
         'info' => [
             'select_categories' => '카테고리 선택',

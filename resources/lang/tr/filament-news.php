@@ -28,6 +28,7 @@ return [
             'created_at' => 'Oluşturulma Tarihi',
             'status_published' => 'Yayınlandı',
             'status_draft' => 'Taslak',
+            'external_link' => 'Harici Bağlantı',
         ],
         'info' => [
             'select_categories' => 'Kategorileri seçin',

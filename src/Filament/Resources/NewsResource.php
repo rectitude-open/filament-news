@@ -129,6 +129,12 @@ class NewsResource extends Resource
                                     ->maxLength(255)
                                     ->inlineLabel()
                                     ->columnSpanFull(),
+                                TextInput::make('external_link')
+                                    ->label(__('filament-news::filament-news.news.field.external_link'))
+                                    ->url()
+                                    ->maxLength(255)
+                                    ->inlineLabel()
+                                    ->columnSpanFull(),
                                 Textarea::make('summary')
                                     ->label(__('filament-news::filament-news.news.field.summary'))
                                     ->default('')
@@ -196,6 +202,18 @@ class NewsResource extends Resource
                     ->html(),
                 SpatieTagsColumn::make('tags')
                     ->label(__('filament-news::filament-news.news.field.tags')),
+                TextColumn::make('external_link')
+                    ->label(__('filament-news::filament-news.news.field.external_link'))
+                    ->limit(50)
+                    ->tooltip(function (TextColumn $column): ?string {
+                        $state = $column->getState();
+
+                        return $state ? $state : null;
+                    })
+                    ->url(fn ($record) => $record->external_link, true)
+                    ->openUrlInNewTab()
+                    ->icon('heroicon-o-arrow-top-right-on-square')
+                    ->iconPosition('after'),
                 IconColumn::make('status')
                     ->label(__('filament-news::filament-news.news.field.status'))
                     ->icon(fn ($state): string => match ($state) {

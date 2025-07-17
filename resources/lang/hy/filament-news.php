@@ -28,6 +28,7 @@ return [
             'created_at' => 'Ստեղծվել է',
             'status_published' => 'Հրապարակված',
             'status_draft' => 'Սևագիր',
+            'external_link' => 'Արտաքին հղում',
         ],
         'info' => [
             'select_categories' => 'Ընտրեք կատեգորիաներ',

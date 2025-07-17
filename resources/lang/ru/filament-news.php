@@ -28,6 +28,7 @@ return [
             'created_at' => 'Создано',
             'status_published' => 'Опубликовано',
             'status_draft' => 'Черновик',
+            'external_link' => 'Внешняя ссылка',
         ],
         'info' => [
             'select_categories' => 'Выберите категории',

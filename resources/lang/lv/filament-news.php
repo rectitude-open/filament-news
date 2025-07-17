@@ -28,6 +28,7 @@ return [
             'created_at' => 'Izveidots',
             'status_published' => 'Publicēts',
             'status_draft' => 'Melnraksts',
+            'external_link' => 'Ārējā saite',
         ],
         'info' => [
             'select_categories' => 'Izvēlieties kategorijas',

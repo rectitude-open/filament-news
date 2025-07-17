@@ -28,6 +28,7 @@ return [
             'created_at' => 'Erstellt am',
             'status_published' => 'Veröffentlicht',
             'status_draft' => 'Entwurf',
+            'external_link' => 'Externer Link',
         ],
         'info' => [
             'select_categories' => 'Kategorien auswählen',

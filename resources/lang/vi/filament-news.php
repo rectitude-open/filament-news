@@ -28,6 +28,7 @@ return [
             'created_at' => 'Ngày tạo',
             'status_published' => 'Đã xuất bản',
             'status_draft' => 'Bản nháp',
+            'external_link' => 'Liên kết ngoài',
         ],
         'info' => [
             'select_categories' => 'Chọn danh mục',

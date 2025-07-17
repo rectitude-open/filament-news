@@ -28,6 +28,7 @@ return [
             'created_at' => '作成日',
             'status_published' => '公開済み',
             'status_draft' => '下書き',
+            'external_link' => '外部リンク',
         ],
         'info' => [
             'select_categories' => 'カテゴリを選択',

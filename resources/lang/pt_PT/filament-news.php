@@ -28,6 +28,7 @@ return [
             'created_at' => 'Criado em',
             'status_published' => 'Publicado',
             'status_draft' => 'Rascunho',
+            'external_link' => 'Ligação externa',
         ],
         'info' => [
             'select_categories' => 'Selecionar categorias',

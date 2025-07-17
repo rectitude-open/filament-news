@@ -28,6 +28,7 @@ use Spatie\Tags\HasTags;
  * @property int $weight
  * @property int $featured_image_id
  * @property int $status
+ * @property string $external_link
  * @property \Illuminate\Support\Carbon $created_at
  * @property \Illuminate\Support\Carbon $updated_at
  * @property \Illuminate\Support\Carbon|null $deleted_at
@@ -50,9 +51,9 @@ class News extends Model
     use SoftDeletes;
     use Versionable;
 
-    protected $fillable = ['title', 'slug', 'summary', 'content', 'weight', 'featured_image_id', 'status', 'created_at'];
+    protected $fillable = ['title', 'slug', 'summary', 'content', 'weight', 'featured_image_id', 'status', 'created_at', 'external_link'];
 
-    protected $versionable = ['title', 'slug', 'summary', 'content', 'weight', 'featured_image_id', 'status', 'created_at'];
+    protected $versionable = ['title', 'slug', 'summary', 'content', 'weight', 'featured_image_id', 'status', 'created_at', 'external_link'];
 
     protected $versionStrategy = VersionStrategy::SNAPSHOT;
 

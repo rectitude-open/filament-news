@@ -28,6 +28,7 @@ return [
             'created_at' => 'Krijuar më',
             'status_published' => 'Publikuar',
             'status_draft' => 'Draft',
+            'external_link' => 'Lidhje e jashtme',
         ],
         'info' => [
             'select_categories' => 'Zgjidhni kategoritë',

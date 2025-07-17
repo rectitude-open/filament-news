@@ -28,6 +28,7 @@ return [
             'created_at' => 'Aangemaakt op',
             'status_published' => 'Gepubliceerd',
             'status_draft' => 'Concept',
+            'external_link' => 'Externe link',
         ],
         'info' => [
             'select_categories' => 'Selecteer categorieën',

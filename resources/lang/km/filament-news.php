@@ -28,6 +28,7 @@ return [
             'created_at' => 'បង្កើតនៅ',
             'status_published' => 'បានផ្សព្វផ្សាយ',
             'status_draft' => 'សេចក្តីព្រាង',
+            'external_link' => 'តំណភ្ជាប់ខាងក្រៅ',
         ],
         'info' => [
             'select_categories' => 'ជ្រើសប្រភេទ',

@@ -28,6 +28,7 @@ return [
             'created_at' => '建立時間',
             'status_published' => '已發佈',
             'status_draft' => '草稿',
+            'external_link' => '外部連結',
         ],
         'info' => [
             'select_categories' => '選擇分類',

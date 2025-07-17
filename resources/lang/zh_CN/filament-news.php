@@ -28,6 +28,7 @@ return [
             'created_at' => '创建时间',
             'status_published' => '已发布',
             'status_draft' => '草稿',
+            'external_link' => '外部链接',
         ],
         'info' => [
             'select_categories' => '选择分类',

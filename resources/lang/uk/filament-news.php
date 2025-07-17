@@ -28,6 +28,7 @@ return [
             'created_at' => 'Створено',
             'status_published' => 'Опубліковано',
             'status_draft' => 'Чернетка',
+            'external_link' => 'Зовнішнє посилання',
         ],
         'info' => [
             'select_categories' => 'Виберіть категорії',

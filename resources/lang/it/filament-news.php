@@ -28,6 +28,7 @@ return [
             'created_at' => 'Creato il',
             'status_published' => 'Pubblicato',
             'status_draft' => 'Bozza',
+            'external_link' => 'Link esterno',
         ],
         'info' => [
             'select_categories' => 'Seleziona categorie',

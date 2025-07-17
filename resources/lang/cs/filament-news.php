@@ -28,6 +28,7 @@ return [
             'created_at' => 'Vytvořeno',
             'status_published' => 'Publikováno',
             'status_draft' => 'Návrh',
+            'external_link' => 'Externí odkaz',
         ],
         'info' => [
             'select_categories' => 'Vyberte kategorie',

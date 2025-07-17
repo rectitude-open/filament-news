@@ -28,6 +28,7 @@ return [
             'created_at' => 'تاريخ الإنشاء',
             'status_published' => 'منشور',
             'status_draft' => 'مسودة',
+            'external_link' => 'رابط خارجي',
         ],
         'info' => [
             'select_categories' => 'اختر الفئات',

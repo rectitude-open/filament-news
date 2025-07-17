@@ -28,6 +28,7 @@ return [
             'created_at' => 'دروستکراوە لە',
             'status_published' => 'بڵاوکراوەتەوە',
             'status_draft' => 'پڕۆژە',
+            'external_link' => 'بەستەری دەرەکی',
         ],
         'info' => [
             'select_categories' => 'هاوپۆل هەلبژێرە',
