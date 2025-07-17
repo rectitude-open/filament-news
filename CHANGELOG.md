@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.16.0](https://github.com/rectitude-open/filament-news/compare/v1.15.1...v1.16.0) (2025-07-17)
+
+
+### Features
+
+* add external link field ([1a00196](https://github.com/rectitude-open/filament-news/commit/1a00196f89e1acf6924ff35b4712e3ce4db1aaa5))
+* add getNewsOrFail method ([a04e050](https://github.com/rectitude-open/filament-news/commit/a04e050962d80ade404b09b913ec1d2d4a6eb63d))
+
+
+### Bug Fixes
+
+* include categories in the eager loading for paginated news ([3f46144](https://github.com/rectitude-open/filament-news/commit/3f461446e9b095f5fb976a9f96fc0ced3fcdf1c6))
+
 ## [1.15.1](https://github.com/rectitude-open/filament-news/compare/v1.15.0...v1.15.1) (2025-07-09)
 
 
