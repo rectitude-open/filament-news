@@ -23,12 +23,12 @@ use Spatie\Tags\HasTags;
  * @property int $id
  * @property string $title
  * @property string $slug
+ * @property string $external_link
  * @property string $summary
  * @property string $content
  * @property int $weight
  * @property int $featured_image_id
  * @property int $status
- * @property string $external_link
  * @property \Illuminate\Support\Carbon $created_at
  * @property \Illuminate\Support\Carbon $updated_at
  * @property \Illuminate\Support\Carbon|null $deleted_at
