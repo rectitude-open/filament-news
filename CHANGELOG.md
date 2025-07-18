@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.2](https://github.com/rectitude-open/filament-news/compare/v1.17.1...v1.17.2) (2025-07-18)
+
+
+### Bug Fixes
+
+* update external_link generation in NewsFactory to always provide a URL ([96050e0](https://github.com/rectitude-open/filament-news/commit/96050e0d8a6e0295a0dc054ed96472ff77e7b116))
+
 ## [1.17.1](https://github.com/rectitude-open/filament-news/compare/v1.17.0...v1.17.1) (2025-07-18)
 
 
