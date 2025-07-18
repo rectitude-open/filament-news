@@ -33,7 +33,6 @@ use Spatie\Tags\HasTags;
  * @property \Illuminate\Support\Carbon $updated_at
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \RectitudeOpen\FilamentNews\Models\NewsCategory> $categories
- * @property-read int|null $categories_count
  * @property Media|null $featured_image
  * @property SEO $seo
  *
@@ -82,7 +81,7 @@ class News extends Model
 
     public function featured_image(): BelongsTo
     {
-        return $this->belongsTo(Media::class, 'featured_image_id', 'id');
+        return $this->belongsTo(config('curator.model', Media::class), 'featured_image_id', 'id');
     }
 
     // @phpstan-ignore-next-line
