@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.1](https://github.com/rectitude-open/filament-news/compare/v1.17.0...v1.17.1) (2025-07-18)
+
+
+### Bug Fixes
+
+* remove unused categories_count property and update featured_image relationship to use config ([e6abc08](https://github.com/rectitude-open/filament-news/commit/e6abc08fbc8e8bf6ddbeb9436b9ffc5e2d75f28a))
+
 ## [1.17.0](https://github.com/rectitude-open/filament-news/compare/v1.16.1...v1.17.0) (2025-07-17)
 
 
