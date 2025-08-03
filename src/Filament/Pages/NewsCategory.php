@@ -8,6 +8,7 @@ use Filament\Forms\Components\TextInput;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
 use RectitudeOpen\FilamentNews\Models\NewsCategory as TreePageModel;
 use SolutionForest\FilamentTree\Pages\TreePage as BasePage;
+use Illuminate\Contracts\Support\Htmlable;
 
 class NewsCategory extends BasePage
 {
@@ -40,10 +41,18 @@ class NewsCategory extends BasePage
         return static::$model ?? config('filament-news.news_category.model', TreePageModel::class);
     }
 
+    public function getTitle(): string | Htmlable
+    {
+        return __('filament-news::filament-news.news_category.resource.label');
+    }
+
     protected function getActions(): array
     {
         return [
-            $this->getCreateAction()->icon('heroicon-o-plus'),
+            $this->getCreateAction()
+                ->modalHeading(fn (): string => __('filament-actions::create.single.modal.heading', ['label' => __('filament-news::filament-news.news_category.resource.label')]))
+                ->label(__('filament-news::filament-news.news_category.resource.label'))
+                ->icon('heroicon-o-plus'),
         ];
     }
 

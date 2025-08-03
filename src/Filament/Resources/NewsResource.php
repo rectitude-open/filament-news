@@ -67,6 +67,12 @@ class NewsResource extends Resource
                 : '';
     }
 
+    public static function getModelLabel(): string
+    {
+        return __('filament-news::filament-news.news.resource.label');
+    }
+
+
     public static function form(Form $form): Form
     {
         $editorClass = config('filament-news.editor_component_class', RichEditor::class);

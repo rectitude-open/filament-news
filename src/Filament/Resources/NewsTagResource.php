@@ -45,6 +45,11 @@ class NewsTagResource extends Resource
         return static::$model ?? config('filament-news.tag.model', Tag::class);
     }
 
+    public static function getModelLabel(): string
+    {
+        return __('filament-news::filament-news.tag.resource.label');
+    }
+
     public static function getEloquentQuery(): Builder
     {
         /** @phpstan-ignore-next-line */

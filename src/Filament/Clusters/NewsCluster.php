@@ -28,4 +28,9 @@ class NewsCluster extends Cluster
     {
         return __('filament-news::filament-news.cluster.nav.group');
     }
+
+    public static function getClusterBreadcrumb(): string
+    {
+        return __('filament-news::filament-news.cluster.nav.label');
+    }
 }
