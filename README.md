@@ -1,6 +1,7 @@
 ![Filament News Banner](./art/Filament%20News.png)
 # Filament News
 
+![Do not use](https://img.shields.io/badge/Under%20development-Don't%20use-red)
 [![Tests](https://github.com/rectitude-open/filament-news/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rectitude-open/filament-news/actions/workflows/run-tests.yml)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%205-brightgreen)](https://phpstan.org/)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rectitude-open/filament-news.svg?style=flat-square)](https://packagist.org/packages/rectitude-open/filament-news)
