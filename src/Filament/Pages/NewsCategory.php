@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace RectitudeOpen\FilamentNews\Filament\Pages;
 
 use Filament\Forms\Components\TextInput;
+use Illuminate\Contracts\Support\Htmlable;
 use RectitudeOpen\FilamentNews\Filament\Clusters\NewsCluster;
 use RectitudeOpen\FilamentNews\Models\NewsCategory as TreePageModel;
 use SolutionForest\FilamentTree\Pages\TreePage as BasePage;
-use Illuminate\Contracts\Support\Htmlable;
 
 class NewsCategory extends BasePage
 {
