@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Новини',
+        ],
+        'nav' => [
+            'label' => 'Список новин',
             'group' => '',
         ],
         'field' => [
@@ -25,7 +28,7 @@ return [
             'summary' => 'Резюме',
             'weight' => 'Вага',
             'status' => 'Статус',
-            'created_at' => 'Створено',
+            'created_at' => 'Дата створення',
             'status_published' => 'Опубліковано',
             'status_draft' => 'Чернетка',
             'external_link' => 'Зовнішнє посилання',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Категорії новин',
+        ],
         'nav' => [
             'label' => 'Категорії новин',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Теги новин',
+        ],
         'nav' => [
-            'label' => 'Теги',
+            'label' => 'Теги новин',
             'group' => '',
         ],
         'field' => [

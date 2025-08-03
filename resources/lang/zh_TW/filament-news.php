@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => '新聞',
+        ],
+        'nav' => [
+            'label' => '新聞列表',
             'group' => '',
         ],
         'field' => [
@@ -20,13 +23,13 @@ return [
             'tags' => '標籤',
             'featured_image' => '精選圖片',
             'seo' => 'SEO',
-            'meta' => '中繼資料',
+            'meta' => 'Meta',
             'slug' => '別名',
             'summary' => '摘要',
             'weight' => '權重',
             'status' => '狀態',
             'created_at' => '建立時間',
-            'status_published' => '已發佈',
+            'status_published' => '已發布',
             'status_draft' => '草稿',
             'external_link' => '外部連結',
         ],
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => '新聞分類',
+        ],
         'nav' => [
             'label' => '新聞分類',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => '新聞標籤',
+        ],
         'nav' => [
-            'label' => '標籤',
+            'label' => '新聞標籤',
             'group' => '',
         ],
         'field' => [

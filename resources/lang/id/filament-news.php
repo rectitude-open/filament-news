@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Berita',
+        ],
+        'nav' => [
+            'label' => 'Daftar Berita',
             'group' => '',
         ],
         'field' => [
@@ -25,16 +28,19 @@ return [
             'summary' => 'Ringkasan',
             'weight' => 'Bobot',
             'status' => 'Status',
-            'created_at' => 'Dibuat pada',
+            'created_at' => 'Dibuat Pada',
             'status_published' => 'Dipublikasikan',
-            'status_draft' => 'Draf',
-            'external_link' => 'Tautan eksternal',
+            'status_draft' => 'Draft',
+            'external_link' => 'Tautan Eksternal',
         ],
         'info' => [
             'select_categories' => 'Pilih Kategori',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Kategori Berita',
+        ],
         'nav' => [
             'label' => 'Kategori Berita',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Tag Berita',
+        ],
         'nav' => [
-            'label' => 'Tag',
+            'label' => 'Tag Berita',
             'group' => '',
         ],
         'field' => [

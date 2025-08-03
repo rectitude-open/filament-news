@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Hírek',
+        ],
+        'nav' => [
+            'label' => 'Hírek listája',
             'group' => '',
         ],
         'field' => [
@@ -27,14 +30,17 @@ return [
             'status' => 'Állapot',
             'created_at' => 'Létrehozva',
             'status_published' => 'Közzétéve',
-            'status_draft' => 'Piszkozat',
-            'external_link' => 'Külső link',
+            'status_draft' => 'Vázlat',
+            'external_link' => 'Külső hivatkozás',
         ],
         'info' => [
             'select_categories' => 'Kategóriák kiválasztása',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Hírkategóriák',
+        ],
         'nav' => [
             'label' => 'Hírkategóriák',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Hírcímkék',
+        ],
         'nav' => [
-            'label' => 'Címkék',
+            'label' => 'Hírcímkék',
             'group' => '',
         ],
         'field' => [

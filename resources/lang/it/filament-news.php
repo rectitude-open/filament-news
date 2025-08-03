@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Notizie',
+        ],
+        'nav' => [
+            'label' => 'Elenco Notizie',
             'group' => '',
         ],
         'field' => [
@@ -28,15 +31,18 @@ return [
             'created_at' => 'Creato il',
             'status_published' => 'Pubblicato',
             'status_draft' => 'Bozza',
-            'external_link' => 'Link esterno',
+            'external_link' => 'Link Esterno',
         ],
         'info' => [
-            'select_categories' => 'Seleziona categorie',
+            'select_categories' => 'Seleziona Categorie',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Categorie Notizie',
+        ],
         'nav' => [
-            'label' => 'Categorie di notizie',
+            'label' => 'Categorie Notizie',
             'group' => '',
         ],
         'field' => [
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Tag Notizie',
+        ],
         'nav' => [
-            'label' => 'Tag',
+            'label' => 'Tag Notizie',
             'group' => '',
         ],
         'field' => [

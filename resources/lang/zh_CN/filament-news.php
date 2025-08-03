@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => '新闻',
+        ],
+        'nav' => [
+            'label' => '新闻列表',
             'group' => '',
         ],
         'field' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => '新闻分类',
+        ],
         'nav' => [
             'label' => '新闻分类',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => '新闻标签',
+        ],
         'nav' => [
-            'label' => '标签',
+            'label' => '新闻标签',
             'group' => '',
         ],
         'field' => [

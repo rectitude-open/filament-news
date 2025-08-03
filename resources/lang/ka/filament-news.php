@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'სიახლეები',
+        ],
+        'nav' => [
+            'label' => 'სიახლეების სია',
             'group' => '',
         ],
         'field' => [
@@ -17,7 +20,7 @@ return [
             'title' => 'სათაური',
             'taxonomy' => 'ტაქსონომია',
             'categories' => 'კატეგორიები',
-            'tags' => 'თეგები',
+            'tags' => 'ტეგები',
             'featured_image' => 'გამორჩეული სურათი',
             'seo' => 'SEO',
             'meta' => 'მეტა',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'სიახლეების კატეგორიები',
+        ],
         'nav' => [
             'label' => 'სიახლეების კატეგორიები',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'სიახლეების ტეგები',
+        ],
         'nav' => [
-            'label' => 'თეგები',
+            'label' => 'სიახლეების ტეგები',
             'group' => '',
         ],
         'field' => [

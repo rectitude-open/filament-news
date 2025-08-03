@@ -8,12 +8,15 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'ニュース',
+        ],
+        'nav' => [
+            'label' => 'ニュース一覧',
             'group' => '',
         ],
         'field' => [
-            'content' => 'コンテンツ',
+            'content' => '内容',
             'title' => 'タイトル',
             'taxonomy' => '分類',
             'categories' => 'カテゴリ',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'ニュースカテゴリ',
+        ],
         'nav' => [
             'label' => 'ニュースカテゴリ',
             'group' => '',
@@ -44,15 +50,18 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'ニュースタグ',
+        ],
         'nav' => [
-            'label' => 'タグ',
+            'label' => 'ニュースタグ',
             'group' => '',
         ],
         'field' => [
             'name' => '名前',
             'slug' => 'スラッグ',
             'weight' => '重み',
-            'count' => '数',
+            'count' => '件数',
         ],
     ],
 ];

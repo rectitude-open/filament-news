@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Haberler',
+        ],
+        'nav' => [
+            'label' => 'Haber Listesi',
             'group' => '',
         ],
         'field' => [
@@ -31,10 +34,13 @@ return [
             'external_link' => 'Harici Bağlantı',
         ],
         'info' => [
-            'select_categories' => 'Kategorileri seçin',
+            'select_categories' => 'Kategorileri Seçin',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Haber Kategorileri',
+        ],
         'nav' => [
             'label' => 'Haber Kategorileri',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Haber Etiketleri',
+        ],
         'nav' => [
-            'label' => 'Etiketler',
+            'label' => 'Haber Etiketleri',
             'group' => '',
         ],
         'field' => [

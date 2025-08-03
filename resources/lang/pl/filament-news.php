@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Aktualności',
+        ],
+        'nav' => [
+            'label' => 'Lista aktualności',
             'group' => '',
         ],
         'field' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Kategorie aktualności',
+        ],
         'nav' => [
             'label' => 'Kategorie aktualności',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Tagi aktualności',
+        ],
         'nav' => [
-            'label' => 'Tagi',
+            'label' => 'Tagi aktualności',
             'group' => '',
         ],
         'field' => [

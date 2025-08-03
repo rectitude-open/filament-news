@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'الأخبار',
+        ],
+        'nav' => [
+            'label' => 'قائمة الأخبار',
             'group' => '',
         ],
         'field' => [
@@ -20,7 +23,7 @@ return [
             'tags' => 'الوسوم',
             'featured_image' => 'الصورة المميزة',
             'seo' => 'تحسين محركات البحث',
-            'meta' => 'ميتا',
+            'meta' => 'بيانات وصفية',
             'slug' => 'المعرف',
             'summary' => 'الملخص',
             'weight' => 'الترتيب',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'فئات الأخبار',
+        ],
         'nav' => [
             'label' => 'فئات الأخبار',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'وسوم الأخبار',
+        ],
         'nav' => [
-            'label' => 'الوسوم',
+            'label' => 'وسوم الأخبار',
             'group' => '',
         ],
         'field' => [

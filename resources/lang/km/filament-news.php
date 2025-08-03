@@ -8,25 +8,28 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'ព័ត៌មាន',
+        ],
+        'nav' => [
+            'label' => 'បញ្ជីព័ត៌មាន',
             'group' => '',
         ],
         'field' => [
             'content' => 'មាតិកា',
             'title' => 'ចំណងជើង',
-            'taxonomy' => 'តាក់សូណូមី',
+            'taxonomy' => 'ប្រភេទ',
             'categories' => 'ប្រភេទ',
             'tags' => 'ស្លាក',
             'featured_image' => 'រូបភាពពិសេស',
             'seo' => 'SEO',
             'meta' => 'មេតា',
-            'slug' => 'ស្លាក់',
+            'slug' => 'Slug',
             'summary' => 'សង្ខេប',
-            'weight' => 'ទំងន់',
+            'weight' => 'ទម្ងន់',
             'status' => 'ស្ថានភាព',
-            'created_at' => 'បង្កើតនៅ',
-            'status_published' => 'បានផ្សព្វផ្សាយ',
+            'created_at' => 'ថ្ងៃបង្កើត',
+            'status_published' => 'បានបោះពុម្ពផ្សាយ',
             'status_draft' => 'សេចក្តីព្រាង',
             'external_link' => 'តំណភ្ជាប់ខាងក្រៅ',
         ],
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'ប្រភេទព័ត៌មាន',
+        ],
         'nav' => [
             'label' => 'ប្រភេទព័ត៌មាន',
             'group' => '',
@@ -44,14 +50,17 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'ស្លាកព័ត៌មាន',
+        ],
         'nav' => [
-            'label' => 'ស្លាក',
+            'label' => 'ស្លាកព័ត៌មាន',
             'group' => '',
         ],
         'field' => [
             'name' => 'ឈ្មោះ',
-            'slug' => 'ស្លាក់',
-            'weight' => 'ទំងន់',
+            'slug' => 'Slug',
+            'weight' => 'ទម្ងន់',
             'count' => 'ចំនួន',
         ],
     ],

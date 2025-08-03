@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Ziņas',
+        ],
+        'nav' => [
+            'label' => 'Ziņu saraksts',
             'group' => '',
         ],
         'field' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Ziņu kategorijas',
+        ],
         'nav' => [
             'label' => 'Ziņu kategorijas',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Ziņu birkas',
+        ],
         'nav' => [
-            'label' => 'Birkas',
+            'label' => 'Ziņu birkas',
             'group' => '',
         ],
         'field' => [

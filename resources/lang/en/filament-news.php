@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'News',
+        ],
+        'nav' => [
+            'label' => 'News List',
             'group' => '',
         ],
         'field' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'News Categories',
+        ],
         'nav' => [
             'label' => 'News Categories',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'News Tags',
+        ],
         'nav' => [
-            'label' => 'Tags',
+            'label' => 'News Tags',
             'group' => '',
         ],
         'field' => [

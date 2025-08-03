@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Nûçe',
+        ],
+        'nav' => [
+            'label' => 'Lîsteya Nûçeyan',
             'group' => '',
         ],
         'field' => [
@@ -26,17 +29,20 @@ return [
             'weight' => 'Girîngî',
             'status' => 'Rewş',
             'created_at' => 'Dîrokê çêkirinê',
-            'status_published' => 'Weşandî',
+            'status_published' => 'Weşandin',
             'status_draft' => 'Qert',
-            'external_link' => 'Girêdana derveyî',
+            'external_link' => 'Girêdana Derve',
         ],
         'info' => [
             'select_categories' => 'Kategorî hilbijêre',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Kategoriyên Nûçeyan',
+        ],
         'nav' => [
-            'label' => 'Kategoriyên nûçeyan',
+            'label' => 'Kategoriyên Nûçeyan',
             'group' => '',
         ],
         'field' => [
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Etîketên Nûçeyan',
+        ],
         'nav' => [
-            'label' => 'Etîket',
+            'label' => 'Etîketên Nûçeyan',
             'group' => '',
         ],
         'field' => [

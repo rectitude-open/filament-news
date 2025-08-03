@@ -8,12 +8,15 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => '뉴스',
+        ],
+        'nav' => [
+            'label' => '뉴스 목록',
             'group' => '',
         ],
         'field' => [
-            'content' => '콘텐츠',
+            'content' => '내용',
             'title' => '제목',
             'taxonomy' => '분류',
             'categories' => '카테고리',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => '뉴스 카테고리',
+        ],
         'nav' => [
             'label' => '뉴스 카테고리',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => '뉴스 태그',
+        ],
         'nav' => [
-            'label' => '태그',
+            'label' => '뉴스 태그',
             'group' => '',
         ],
         'field' => [

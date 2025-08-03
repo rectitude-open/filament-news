@@ -8,14 +8,17 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Lajme',
+        ],
+        'nav' => [
+            'label' => 'Lista e lajmeve',
             'group' => '',
         ],
         'field' => [
             'content' => 'Përmbajtje',
             'title' => 'Titulli',
-            'taxonomy' => 'Taksonomia',
+            'taxonomy' => 'Taksonomi',
             'categories' => 'Kategoritë',
             'tags' => 'Etiketat',
             'featured_image' => 'Imazhi kryesor',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Kategoritë e lajmeve',
+        ],
         'nav' => [
             'label' => 'Kategoritë e lajmeve',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Etiketat e lajmeve',
+        ],
         'nav' => [
-            'label' => 'Etiketat',
+            'label' => 'Etiketat e lajmeve',
             'group' => '',
         ],
         'field' => [

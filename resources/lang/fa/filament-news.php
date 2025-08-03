@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'اخبار',
+        ],
+        'nav' => [
+            'label' => 'لیست اخبار',
             'group' => '',
         ],
         'field' => [
@@ -35,8 +38,11 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'دسته‌بندی‌های اخبار',
+        ],
         'nav' => [
-            'label' => 'دسته‌بندی اخبار',
+            'label' => 'دسته‌بندی‌های اخبار',
             'group' => '',
         ],
         'field' => [
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'برچسب‌های اخبار',
+        ],
         'nav' => [
-            'label' => 'برچسب‌ها',
+            'label' => 'برچسب‌های اخبار',
             'group' => '',
         ],
         'field' => [

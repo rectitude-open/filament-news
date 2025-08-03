@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Nieuws',
+        ],
+        'nav' => [
+            'label' => 'Nieuwslijst',
             'group' => '',
         ],
         'field' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Nieuwscategorieën',
+        ],
         'nav' => [
             'label' => 'Nieuwscategorieën',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Nieuwstags',
+        ],
         'nav' => [
-            'label' => 'Tags',
+            'label' => 'Nieuwstags',
             'group' => '',
         ],
         'field' => [

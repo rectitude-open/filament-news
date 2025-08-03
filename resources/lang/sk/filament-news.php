@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Novinky',
+        ],
+        'nav' => [
+            'label' => 'Zoznam noviniek',
             'group' => '',
         ],
         'field' => [
@@ -27,7 +30,7 @@ return [
             'status' => 'Stav',
             'created_at' => 'Vytvorené',
             'status_published' => 'Publikované',
-            'status_draft' => 'Návrh',
+            'status_draft' => 'Koncept',
             'external_link' => 'Externý odkaz',
         ],
         'info' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Kategórie noviniek',
+        ],
         'nav' => [
             'label' => 'Kategórie noviniek',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Tagy noviniek',
+        ],
         'nav' => [
-            'label' => 'Tagy',
+            'label' => 'Tagy noviniek',
             'group' => '',
         ],
         'field' => [

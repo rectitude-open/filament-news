@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Notícias',
+        ],
+        'nav' => [
+            'label' => 'Lista de Notícias',
             'group' => '',
         ],
         'field' => [
@@ -17,8 +20,8 @@ return [
             'title' => 'Título',
             'taxonomy' => 'Taxonomia',
             'categories' => 'Categorias',
-            'tags' => 'Etiquetas',
-            'featured_image' => 'Imagem de destaque',
+            'tags' => 'Tags',
+            'featured_image' => 'Imagem de Destaque',
             'seo' => 'SEO',
             'meta' => 'Meta',
             'slug' => 'Slug',
@@ -28,15 +31,18 @@ return [
             'created_at' => 'Criado em',
             'status_published' => 'Publicado',
             'status_draft' => 'Rascunho',
-            'external_link' => 'Ligação externa',
+            'external_link' => 'Link Externo',
         ],
         'info' => [
-            'select_categories' => 'Selecionar categorias',
+            'select_categories' => 'Selecionar Categorias',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Categorias de Notícias',
+        ],
         'nav' => [
-            'label' => 'Categorias de notícias',
+            'label' => 'Categorias de Notícias',
             'group' => '',
         ],
         'field' => [
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Tags de Notícias',
+        ],
         'nav' => [
-            'label' => 'Etiquetas',
+            'label' => 'Tags de Notícias',
             'group' => '',
         ],
         'field' => [

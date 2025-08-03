@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Новости',
+        ],
+        'nav' => [
+            'label' => 'Список новостей',
             'group' => '',
         ],
         'field' => [
@@ -25,7 +28,7 @@ return [
             'summary' => 'Резюме',
             'weight' => 'Вес',
             'status' => 'Статус',
-            'created_at' => 'Создано',
+            'created_at' => 'Дата создания',
             'status_published' => 'Опубликовано',
             'status_draft' => 'Черновик',
             'external_link' => 'Внешняя ссылка',
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Категории новостей',
+        ],
         'nav' => [
             'label' => 'Категории новостей',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Теги новостей',
+        ],
         'nav' => [
-            'label' => 'Теги',
+            'label' => 'Теги новостей',
             'group' => '',
         ],
         'field' => [

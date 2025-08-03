@@ -8,35 +8,41 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'هەواڵ',
+        ],
+        'nav' => [
+            'label' => 'لیستی هەواڵ',
             'group' => '',
         ],
         'field' => [
             'content' => 'ناوەڕۆک',
             'title' => 'ناونیشان',
-            'taxonomy' => 'پۆل',
-            'categories' => 'هاوپۆلەکان',
+            'taxonomy' => 'جۆر',
+            'categories' => 'پۆلەکان',
             'tags' => 'تاگەکان',
             'featured_image' => 'وێنەی تایبەت',
             'seo' => 'SEO',
-            'meta' => 'مێتا',
-            'slug' => 'سلەگ',
+            'meta' => 'زانیاری',
+            'slug' => 'ناو',
             'summary' => 'پوختە',
-            'weight' => 'پێوانە',
+            'weight' => 'ڕیزبەندی',
             'status' => 'دۆخ',
-            'created_at' => 'دروستکراوە لە',
-            'status_published' => 'بڵاوکراوەتەوە',
+            'created_at' => 'دروستکراوە',
+            'status_published' => 'بڵاوکراوە',
             'status_draft' => 'پڕۆژە',
             'external_link' => 'بەستەری دەرەکی',
         ],
         'info' => [
-            'select_categories' => 'هاوپۆل هەلبژێرە',
+            'select_categories' => 'پۆلەکان هەڵبژێرە',
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'پۆلەکانی هەواڵ',
+        ],
         'nav' => [
-            'label' => 'هاوپۆلەکانی هەواڵ',
+            'label' => 'پۆلەکانی هەواڵ',
             'group' => '',
         ],
         'field' => [
@@ -44,14 +50,17 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'تاگەکانی هەواڵ',
+        ],
         'nav' => [
-            'label' => 'تاگەکان',
+            'label' => 'تاگەکانی هەواڵ',
             'group' => '',
         ],
         'field' => [
             'name' => 'ناو',
-            'slug' => 'سلەگ',
-            'weight' => 'پێوانە',
+            'slug' => 'ناو',
+            'weight' => 'ڕیزبەندی',
             'count' => 'ژمارە',
         ],
     ],

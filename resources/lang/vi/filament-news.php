@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Tin tức',
+        ],
+        'nav' => [
+            'label' => 'Danh sách tin tức',
             'group' => '',
         ],
         'field' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Danh mục tin tức',
+        ],
         'nav' => [
             'label' => 'Danh mục tin tức',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Thẻ tin tức',
+        ],
         'nav' => [
-            'label' => 'Thẻ',
+            'label' => 'Thẻ tin tức',
             'group' => '',
         ],
         'field' => [

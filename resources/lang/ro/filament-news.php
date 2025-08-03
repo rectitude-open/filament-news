@@ -8,8 +8,11 @@ return [
         ],
     ],
     'news' => [
-        'nav' => [
+        'resource' => [
             'label' => 'Știri',
+        ],
+        'nav' => [
+            'label' => 'Lista știrilor',
             'group' => '',
         ],
         'field' => [
@@ -27,7 +30,7 @@ return [
             'status' => 'Stare',
             'created_at' => 'Creat la',
             'status_published' => 'Publicat',
-            'status_draft' => 'Schiță',
+            'status_draft' => 'Ciornă',
             'external_link' => 'Link extern',
         ],
         'info' => [
@@ -35,6 +38,9 @@ return [
         ],
     ],
     'news_category' => [
+        'resource' => [
+            'label' => 'Categorii de știri',
+        ],
         'nav' => [
             'label' => 'Categorii de știri',
             'group' => '',
@@ -44,8 +50,11 @@ return [
         ],
     ],
     'tag' => [
+        'resource' => [
+            'label' => 'Etichete de știri',
+        ],
         'nav' => [
-            'label' => 'Etichete',
+            'label' => 'Etichete de știri',
             'group' => '',
         ],
         'field' => [
