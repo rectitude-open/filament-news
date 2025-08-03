@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.18.0](https://github.com/rectitude-open/filament-news/compare/v1.17.2...v1.18.0) (2025-08-03)
+
+
+### Features
+
+* add model label methods for NewsResource and NewsTagResource, and breadcrumb method for NewsCluster ([4b5922a](https://github.com/rectitude-open/filament-news/commit/4b5922a7052926f90dd2ee0591527a397fe00081))
+
+
+### Miscellaneous Chores
+
+* clean up code using pint ([3e109c7](https://github.com/rectitude-open/filament-news/commit/3e109c7f69c551604d1191c3fa3fdbec5550d219))
+
 ## [1.17.2](https://github.com/rectitude-open/filament-news/compare/v1.17.1...v1.17.2) (2025-07-18)
 
 
