@@ -3,6 +3,7 @@
 namespace RectitudeOpen\FilamentNews;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use RectitudeOpen\FilamentNews\Models\News;
 
@@ -14,6 +15,12 @@ class FilamentNews
     public function getModel(): string
     {
         return config('filament-news.news.model', News::class);
+    }
+
+    public function listLatestNews(int $limit = 5): Collection
+    {
+        // @phpstan-ignore-next-line
+        return $this->getModel()::with(['categories'])->ordered()->published()->take($limit)->get();
     }
 
     /**
