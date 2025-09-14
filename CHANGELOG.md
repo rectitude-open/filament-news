@@ -7,6 +7,11 @@
 
 * add method to list latest news ([d87d1fd](https://github.com/rectitude-open/filament-news/commit/d87d1fd2af116394fbfa4bbb939ce72044fa89ab))
 
+### Miscellaneous Chores
+
+* **deps:** bump actions/checkout from 4 to 5 ([b706554](https://github.com/rectitude-open/filament-news/commit/b7065548bf1e43cceb0e6d4a770ac3942a89ba70))
+* **deps:** bump actions/checkout from 4 to 5 ([0452d8d](https://github.com/rectitude-open/filament-news/commit/0452d8dfda138670892c37cca1c45cc28bcb067d))
+
 ## [1.18.0](https://github.com/rectitude-open/filament-news/compare/v1.17.2...v1.18.0) (2025-08-03)
 
 
