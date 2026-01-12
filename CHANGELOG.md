@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.19.1](https://github.com/rectitude-open/filament-news/compare/v1.19.0...v1.19.1) (2026-01-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 ([ba6377a](https://github.com/rectitude-open/filament-news/commit/ba6377aeee8492ba02f8ce062785de503ca00c3c))
+* **deps:** bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 ([f064760](https://github.com/rectitude-open/filament-news/commit/f064760b8e417f01b7a90335c2e1739b0f05d27a))
+* **main:** release 1.19.0 ([470a823](https://github.com/rectitude-open/filament-news/commit/470a8236eba35252c064358059407fb993ce65f8))
+* **main:** release 1.19.0 ([2f1035d](https://github.com/rectitude-open/filament-news/commit/2f1035d3d8f9ffd1d598577973c576e5277feb00))
+
 ## [1.19.0](https://github.com/rectitude-open/filament-news/compare/v1.18.0...v1.19.0) (2025-09-14)
 
 
